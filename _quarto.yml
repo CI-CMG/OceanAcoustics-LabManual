@@ -3,7 +3,7 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA quarto simple" 
+  title: "CIRES Lab Manual" 
   site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
   repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
   repo-actions: [edit, source, issue]
@@ -15,7 +15,7 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/CIRES_logo.svg"
     favicon: images/favicon.ico
     pinned: true
     align: center
@@ -31,20 +31,55 @@ website:
     search: true
     collapse-level: 1
     contents:
-      - href: index.qmd
+      - href: content/index.qmd
         text: Home
-      - href: content/add-content.qmd
-        text: Add content
-      - href: content/customizing.qmd
-        text: Customizing
-      - href: content/rendering.qmd
-        text: Rendering
-      - href: content/rmarkdown.Rmd
-        text: R Markdown files
-      - href: content/code.qmd
-        text: Code in your files
-      - href: content/acknowledgements.qmd
-        text: Acknowledgements
+        contents:
+          - href: content/index.qmd
+            text: Introduction
+          - href: content/index.qmd#overview-of-the-archives
+            text: Overview of the Archives
+                
+      - href: content/first_day.qmd
+        text: First Day Checklist
+        
+      - href: content/Onboarding.qmd
+        text: New Employee Onboarding
+      - href: content/Data Overview.qmd
+        text: Overview Of Data We Work With
+        contents:
+          - href: content/Data Overview.qmd#water-column-sonar-data
+            text: Water Column Sonar Data
+          - href: content/Data Overview.qmd#passive-acoustic-monitoring
+            text: Passive Acoustic Monitoring
+        
+      - href: content/Archives.qmd
+        text: Submitting Archive Data
+        contents:
+          - href: content/Archives.qmd#preparing-water-column-sonar-data-to-submit-to-the-archive
+            text: Preparing Water Column Sonar Data to Submit to the Archive
+          - href: content/Archives.qmd#preparing-passive-acoustic-data-to-submit-to-the-archive
+            text: Preparing Passive Acoustic Data to Submit to the Archive
+          - href: content/Archives.qmd#submitting-data-packages-to-the-archive
+            text: Submitting Data Packages to the Archive
+          
+      - href: content/Accessing Data.qmd
+        text: Guidance for Accessing Data
+
+      - href: content/Pipeline.qmd
+        text: Our Data Pipeline
+
+      - href: content/Internal SOPs.qmd
+        text: Internal SOPs
+        contents:
+          - href: content/Internal SOPs.qmd#water-column-sonar-data
+            text: Water Column Sonar Data
+          - href: content/Internal SOPs.qmd#passive-acoustic-data-pad
+            text: Passive Acoustic Data (PAD)
+      
+      - href: content/cheatsheet.qmd
+        text: Cheat sheets
+      - href: content/About.qmd
+        text: Meet the team
 
 format:
   html:
@@ -55,9 +90,6 @@ format:
     code-overflow: wrap
     toc: true
 
-
 filters:
   - include-files.lua
   - quarto
-
-  

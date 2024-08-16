@@ -1,0 +1,41 @@
+---
+title: "Internal SOPs"
+subtitle: "Standard Operating Procedures for Internal Use"
+page-layout: full
+---
+
+Here on the Ocean Acoustic's team we have written out the standard operating procedures for conducting ingests for both the Water Column Sonar and the Passive Acoustic data archives. This information is not public and only NCEI employees will be able to access these google docs.
+
+## Water Column Sonar Data {#water-column-sonar-data}
+
+### Internal Pipeline Procedures
+
+-   For information on the ingest process of Water Column Sonar Data, take a look at this SOP: [WCSD CPI Documentation](https://drive.google.com/open?id=1MyyPwDkDdgin1saL3C47ecqyRy1Dz5YOCRcK9wrPjB4&usp=drive_copy)
+
+-   WCSD data packages and stats should be logged in this spreadsheet: [WCSD by Ship](https://docs.google.com/spreadsheets/d/1N7piviv73aZ6mlaVGMTN0_97Luo2yDfpRnOqUihrlyQ/edit?usp=sharing)
+
+For interacting with WCSD data requests: [WCSD Data Delivery Procedure](https://drive.google.com/open?id=1LUsjjWfUPSWg2hc5v3Qcf1anT6QEoh38ib7DWDdLmz8&usp=drive_copy) Passive Acoustic Data (PAD)
+
+### Internal Pipeline Procedures
+
+-   For overall information on the ingest process of Passive Acoustic Data, take a look at this SOP: [Handling of Drives: CheckSums, Pre-ingest and Ingest](https://drive.google.com/open?id=1be-xbYIlvfGrjZ6lDm_8G3vFHkGKlgS0PJpGR0tH9gE&usp=drive_copy)
+
+-   For a more recent version of pre-ingest: [PAD Pre-Ingest 2.0](https://docs.google.com/document/d/1ZmELCT1uGybrPw83Ye4q079ws0_IsCNobLDvvapi-Gs/edit?usp=sharing) 
+
+-   For information on how to submit hard drive scanning tickets:  [Handling of Drives: Scanning](https://docs.google.com/document/d/1atRfjl6khfhxhhEdReYFEJ0cfOirqKo8565qjtV4E-Y/edit?usp=sharing)
+
+-   Hard drives should have been logged in this spreadsheet: [Hard_Drive_Tracking](https://drive.google.com/open?id=1atiNCJLj5uUmGPc-J77ignckwuAZ7sGKW6596IQow0g&usp=drive_copy)
+
+-   All PAD data packages and stats should be logged in this spreadsheet: [PAD Ingest Tracking](https://docs.google.com/spreadsheets/d/1A1DhJFqasKMlLzAELnXfcgIPJVqkvMyFWJOnu9W-cj8/edit?usp=sharing) 
+
+-   To fulfill For interacting with PAD data requests: [PAD Data Request and Delivery - Instructions](https://drive.google.com/open?id=1vGim7urIcylfPSga1h2PI-A2opnGV5y1ztaGTBlAzD0&usp=drive_copy) 
+
+-   For documentation on Pace, the new PAD packaging tool PACE: [PACE Documentation](https://docs.google.com/document/d/186g-taroYaE5OtGgOa76aSvpDxN1Ek025jm5rpetgL0/edit?usp=sharing)
+
+-   For ingesting PAD [PAD Ingest SOP](https://docs.google.com/document/d/1-APUzbkyTKBXICk3wueSvLOlVGu3YwGbKxTVNwT-4bo/edit#heading=h.uy3n4wxjtta7)
+
+## Software Development (DEV)
+
+-   Internal Pipeline Procedures
+
+-   For a general overview of Common Package Ingest (CPI) see this [folder](https://drive.google.com/drive/folders/1HR3kdociTIA1TmjCpRkOzj7Kt1U3RDhG?usp=sharing). Documentation of CPI can be found here: [CPI Overview](https://docs.google.com/document/d/1hMx30IeLQuNSGRxiAeGbq_gboVQ0NzrgsuvU_zwNhi8/edit?usp=drive_link)

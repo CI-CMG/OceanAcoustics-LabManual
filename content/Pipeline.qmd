@@ -1,0 +1,9 @@
+---
+title: Our Data Pipeline
+---
+
+Common Package Ingest (CPI) is the system used to archive water column sonar data (WCSD) and passive acoustic data (PAD). In addition to ingesting data, this system also creates and publishes metadata records, mints DOIs, uploads data to cloud storage, and updates databases that support data discoverability and accessibility via an online map viewer here: [WCSD](https://www.ncei.noaa.gov/maps/water-column-sonar/) or [PAD](https://www.ncei.noaa.gov/maps/passive-acoustic-data/)
+
+This is the general workflow:
+
+![](/Images/WCSD_Pipeline.png)

@@ -1,0 +1,35 @@
+---
+title: Guidance for Accessing Data
+---
+
+All publicly accessible data and products can be discovered in our dedicated map viewers.
+
+-   [Water Column Sonar Data](https://www.ncei.noaa.gov/maps/water-column-sonar/)
+
+-   [Passive Acoustic Data](https://www.ncei.noaa.gov/maps/passive-acoustic-data/)
+
+The map viewers allow filtering of datasets based on various criteria and also allow data ordering. When ordering data there is the option of receiving it directly from NCEI or accessing the data from a cloud repository that is part of the [NOAA Open Data Dissemination](https://www.noaa.gov/information-technology/open-data-dissemination) (NODD) project. The map viewer  will provide additional information to access specific files, but data can also be accessed directly from the NODD buckets using the procedures below.
+
+[**WCSD Cloud**](https://noaa-wcsd-pds.s3.amazonaws.com/index.html)
+
+The WCSD archive can be accessed on the Amazon Web Services (AWS) Cloud. Using the [AWS CLI](https://aws.amazon.com/cli/) tool, you can download files from the command line using the following command structure:
+
+aws s3 cp s3://noaa-wcsd-pds/<specific folder path> <destination path> --recursive --no-sign-request
+
+[**PAD Cloud**](https://console.cloud.google.com/storage/browser/noaa-passive-bioacoustic;tab=objects?prefix=&forceOnObjectsSortingFiltering=false&pli=1)
+
+\
+The PAD archive can be accessed on Google Cloud Platform (GCP). For more information on downloading from the cloud, see this [Download Guide](https://www.ngdc.noaa.gov/mgg/pad/docs/Gsutil_Guide.pdf). Using the [gsutil](https://cloud.google.com/storage/docs/gsutil) tool, you can download files from the command line using the following command structure:
+
+gsutil -m cp -r gs://noaa-passive-bioacoustic/<specific folder path> rsync <destination path>
+
+**FTP**
+
+Receiving data directly from NCEI generally involves our anonymous FTP server. Smaller orders are processed automatically and you will receive an email with a download link. Larger orders are processed by our data managers and posted to our FTP server. In this case, the data manager will contact you with downloading instructions.
+
+\
+**External Media Delivery**
+
+For very large , \>500GB, data orders, FTP delivery is not feasible. For these large orders, an external hard drive(s) of sufficient capacity has to be shipped to NCEI. We will load your data and ship the drive(s) back to you. You will be alerted if you try ordering a very large volume of data and a data manager will reach out to coordinate delivery via external media.
+
+\

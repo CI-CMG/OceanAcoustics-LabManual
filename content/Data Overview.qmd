@@ -1,0 +1,78 @@
+---
+title: "Overview of the Data We Work With"
+
+page-layout: full
+---
+
+The Ocean Acoustics Archive provides long-term stewardship and global access to data and products from water column sonar and passive acoustic monitoring systems.
+
+### Water Column Sonar Data
+
+Water column sonar data are routinely collected and used by NOAA to inform fish stock assessments, characterize habitat, remotely detect methane seeps, and monitor undersea oil spills.
+
+![School of fish](images/fishschool.jpg){fig-align="left" width="494"}
+
+![Sound waves transmitted from ships using sonar instruments reflect back to the ship when they have hit an object(s), such as a school of fish (Source: Barbara Ambrose, NOAA)](/Images/sonar.png){fig-align="left" width="334"}
+
+The [Water Column Sonar Data Archive](https://www.ncei.noaa.gov/products/water-column-sonar-data) began through a partnership with NOAA Fisheries in 2011, staffing of the original archive team in 2013, and the operational pipeline launched in 2014.
+
+The majority of archived sonar data were collected by [NOAA Fisheries](https://www.fisheries.noaa.gov/) partners across all six Fisheries Science Centers. The archive also comprises sonar data collected by the [Rolling Deck To Repository](https://www.rvdata.us/) program, [NOAA NOS](https://oceanservice.noaa.gov/) with numerous datasets specifically from [NCCOS](https://coastalscience.noaa.gov/), [NOAA OAR Office of Ocean Exploration (OER)](https://oceanexplorer.noaa.gov/) from [NOAA Ship Okeanos Explorer](https://oceanexplorer.noaa.gov/okeanos/welcome.html), and several academic and international institutions.
+
+An overview of how and why partners across three different NOAA Line Offices collect water column sonar data can be found in this [Story Map](https://storymaps.arcgis.com/stories/e245977def474bdba60952f30576908f) collaboratively written with scientists across NEFSC, AFSC, NCCOS, OER, and CIRES/NCEI.
+
+Since its beginning in 2014, the archive has expanded to include data from a variety of sonar systems operating on vessels, stationary moorings, and autonomous platforms.
+
+This expansion also supports the unique submission formats from principal providers such as the [Rolling Deck To Repository](https://www.rvdata.us/) program and [NOAA Ship Okeanos Explorer](https://oceanexplorer.noaa.gov/okeanos/welcome.html) into the archive.
+
+The team supports the NOAA OMAO Data Rescue Project.
+
+All publicly accessible data and products in the NCEI Water Column Sonar Data Archive can be discovered in its [dedicated map viewer](https://www.ncei.noaa.gov/maps/water-column-sonar/).
+
+### Passive Acoustic Monitoring
+
+Passive acoustic monitoring is a powerful observational tool that NOAA uses to detect and characterize sounds produced by fish and marine mammals, ambient noise from physical oceanographic processes, and anthropogenic noise sources that contribute to the overall ocean soundscape.
+
+![Marine sound sources](/Images/1500x1000-Passive-Acoustics-Soundscape-infographic-NEFSC.png){fig-align="left" width="516"}
+
+![Instrumentation used to record them](/Images/Soundscape%20large.png){fig-align="left"}
+
+The [NOAA Ocean Noise Strategy](https://oceannoise.noaa.gov/) articulates the agency's vision for addressing ocean noise impacts to the species, ecosystems, and places it is entrusted to protect and guide science and management actions towards that vision. The NCEI Passive Acoustic Data Archive is a flagship project for the Ocean Noise Strategy.
+
+The [NCEI Passive Acoustic Data Archive](https://www.ncei.noaa.gov/products/passive-acoustic-data)was established in 2017.
+
+Archived data and products are the result of long-term passive acoustic monitoring efforts and are typically cross NOAA Line Office and/or multi-agency. Some examples include the NOAA-Navy Sanctuary Soundscape Monitoring Project ([SanctSound](https://sanctuaries.noaa.gov/science/monitoring/sound/)), [NOPP](https://www.noaa.gov/ocean-science-and-technology-subcommittee/national-oceanographic-partnership-program)-funded and UNH-led Atlantic Deepwater Ecosystem Observatory Network ([ADEON](https://adeon.unh.edu/)), [BOEM](https://www.boem.gov/)-funded, Cornell University-led monitoring efforts typically associated with monitoring of offshore energy development, and the NOAA-led with collaboration from Mexican scientists Long-term Investigations into Soundscapes, Trends, Ecosystems, and Noise in the Gulf of Mexico ([Listen GoMex](https://www.fisheries.noaa.gov/science-data/passive-acoustic-research-southeast-fisheries-science-center)).
+
+Biological, physical, and anthropogenic sound sources are recorded using a variety of platforms with underwater hydrophones and recording systems from mobile to stationary to animal-borne (right).
+
+All publicly accessible data and products in the NCEI Passive Acoustic Data Archive can be discovered in its [dedicated map viewer.](https://www.ncei.noaa.gov/maps/passive-acoustic-data/)
+
+**Articles of Interest:**
+
+-   [Conservation Bioacoustics- Listening to the Heartbeat of the Earth](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Facousticstoday.org%2Fconservation-bioacoustics-listening-to-the-heartbeat-of-the-earth-aaron-n-rice-marissa-l-garcia-laurel-b-symes-and-holger-klinck%2F&data=05%7C02%7CDavid.Lapaglia%40colorado.edu%7C0f4883d1735d4219e93408dca037947e%7C3ded8b1b070d462982e4c0b019f46057%7C1%7C0%7C638561407786285979%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=EdhqA76801KjbRTaH3i2nRR9Lvavx3dRo51Qzt4lzGY%3D&reserved=0)
+
+-   [The Next Wave of Passive Acoustic Data Management: How Centralized Access Can Enhance Science](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.frontiersin.org%2Farticles%2F10.3389%2Ffmars.2021.703682%2Ffull&data=05%7C02%7CDavid.Lapaglia%40colorado.edu%7Cff1a45b5a12740c0bf4b08dc94914535%7C3ded8b1b070d462982e4c0b019f46057%7C1%7C0%7C638548599447732848%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=ptrv4Zj87p8RuJhx0LFG3xyUUPmICgQvA%2BGtDZo5Jcc%3D&reserved=0)
+
+-   [Earth Science Data Repositories: Implementing the CARE Principles](https://datascience.codata.org/articles/10.5334/dsj-2024-037)
+
+-   [Listening to animal behavior to understand changing ecosystems](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(24)00145-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0169534724001459%3Fshowall%3Dtrue)
+
+\
+**Other Links:**
+
+-   [Sound in the Ocean](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdosits.org%2F&data=05%7C02%7CDavid.Lapaglia%40colorado.edu%7Cff1a45b5a12740c0bf4b08dc94914535%7C3ded8b1b070d462982e4c0b019f46057%7C1%7C0%7C638548599447702768%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=XavlXk2Rim6UahSsvQWbdONB%2BMTerq0W7Osvd80pd%2Bk%3D&reserved=0)
+
+-   [SanctSound](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsanctsound.ioos.us%2F&data=05%7C02%7CDavid.Lapaglia%40colorado.edu%7Cff1a45b5a12740c0bf4b08dc94914535%7C3ded8b1b070d462982e4c0b019f46057%7C1%7C0%7C638548599447718198%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=TZRbGshoeuhf%2F0kH%2BYnGr0%2Fp1Ra2YFBblGcr9XEBc8A%3D&reserved=0)
+
+-   [OceanNoise](https://oceannoise.noaa.gov/)
+
+-   [Passive Acoustic Research in the Northeast](https://www.fisheries.noaa.gov/new-england-mid-atlantic/endangered-species-conservation/passive-acoustic-research-northeast) 
+
+-   [Mammals in the Ocean](https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-mammals) 
+
+-   [Marine Mammal Acoustics](https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/marine-mammal-acoustics)
+
+-   [Offshore Wind Energy Development](https://www.fisheries.noaa.gov/new-england-mid-atlantic/offshore-wind-energy/offshore-wind-energy-development-support)
+
+-   [K. Lisa Yang Center for Conservation Bioacoustics](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.birds.cornell.edu%2Fccb%2F&data=05%7C02%7CDavid.Lapaglia%40colorado.edu%7Cff1a45b5a12740c0bf4b08dc94914535%7C3ded8b1b070d462982e4c0b019f46057%7C1%7C0%7C638548599447746697%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=q3ZnZMXnubrcmRNMfPvbkcILXh9kHIQQZmsQSbQOdaI%3D&reserved=0)
+
+-   [SoundCoop](https://soundcoop.portal.axds.co/#)

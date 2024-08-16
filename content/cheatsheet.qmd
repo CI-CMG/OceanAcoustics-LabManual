@@ -1,0 +1,19 @@
+---
+title: Cheatsheet
+---
+
+With a lot of moving parts to the job you might find it helpful to look back on some cheat sheets. These documents will give you some help with common commands, queries, and government acronyms used within Team Fish.
+
+-   [Terminology](https://drive.google.com/open?id=1I2flFQ5MHMyusTrkue6O77Rj8nm7duZP0Dp2Hx4YBxg&usp=drive_copy): This short doc provides common terms used when discussing the scientific data of the archives.
+
+-   [Acronyms](https://docs.google.com/spreadsheets/d/1XtAX6WVXP8FznDQXbZ8Bha8Mj5PchAhfX-QmUahmuUI/edit?gid=307106870#gid=307106870): This doc includes common government acronyms for agencies, data providers, and more.
+
+-   [AWS Notes](https://drive.google.com/open?id=1rMexzpu7vwg5P0ex1CsXnXhe93ht_UWDZAqT8vpIgto&usp=drive_copy): These notes relay common commands used to access the AWS S3 bucket for Water Column data.
+
+-   [Google Cloud](https://drive.google.com/open?id=1YQ-DCu0IpzzluxoItzKLcU4L9f6rKtLTFqkgZGS5rkw&usp=drive_copy): These notes include common commands used to access the Google Cloud (GCP) bucket holding the Passive Acoustic data.
+
+-   [LINUX COMMANDS](https://drive.google.com/open?id=1sGTmpOdTQVccJ589tzEjmctt6ul1M0_k7e9oDVaR04w&usp=drive_copy): This doc outlines the basic linux commands used to manage the data on our servers and desktops.
+
+-   [SQL Cheat Sheet](https://drive.google.com/open?id=1S2iF1R_5BPHJ5U_Q2r7RMG-JzcKLF9tgdGH3Qf53jLo&usp=drive_copy): This document includes many common SQL queries that we use to access data on our database and in the archive. 
+
+-   [Instruments](https://docs.google.com/document/d/1yB_Hb9VWwMqe4egaD9gf1w_6zBrIi_F7qYFk2PzhmT8/edit?usp=sharing): This doc outlines the types of instruments that are used routinely for water column sonar surveys and passive acoustic monitoring programs.

@@ -1,0 +1,52 @@
+---
+title: "Introduction"
+page-layout: full
+toc: true
+toc-title: "Contents"
+---
+
+Welcome to the Ocean Acoustics Lab Manual. As part of the NOAA National Centers for Environmental Information Marine Geology and Geophysics section ,our team is dedicated to preserving, monitoring, assessing, and providing public access to critical ocean acoustics data. NCEI, as the steward of the nation's vast repository of geophysical data, oversees data that spans from the depths of the ocean to the surface of the sun, driving resilience, prosperity, and equity for both current and future generations.
+
+NCEI, manages an extensive archive of over 60 petabytes of data, ensuring its security, accessibility and further use for science and decision making across various sectors, to address specific challenges with informed solutions.This manual provides detailed information specific to the Ocean Acoustics Archive team, highlighting our role and contributions within the broader mission of NCEI.
+
+### Who we are
+
+We are the NCEI Ocean Acoustics Archive Team, also known as Team Fish. We are University of Colorado Boulder Cooperative Institute for Research in Environmental Science (CIRES) employees located at the NCEI office in Boulder, CO.
+
+### What we do
+
+We provide long-term stewardship of water column sonar and passive acoustic data. In addition to ensuring these valuable data will be available for generations to come, we enable global search, discovery, and access to half a petabyte of archived data through web-based map viewers and cloud-based dissemination.
+
+### Why we do what we do
+
+Fundamentally, we support NOAA's mission to understand and predict our changing environment, from the deep sea to outer space, and to manage and conserve America's coastal and marine resources. The data in our archive were collected to directly meet NOAA's mission by feeding into fisheries stock assessment surveys, monitoring endangered species, determining the effects of anthropogenic activities in critical habitat, and exploring the unknown ocean.
+
+We also support other federal agencies such as the U.S. Navy, Bureau for Ocean Energy Management, National Park Service, academic institutions, and several industry and international partners.
+
+## ![]()Overview of the Archives {#overview-of-the-archives}
+
+This section provides an overview of the archives maintained by the Ocean Acoustics Archive Team at CIRES and NCEI.
+
+### Water Column Sonar Data Archive {#water-column-sonar-data-archive}
+
+NOAA collects and uses active acoustic (sonar) data for various mapping requirements, focusing on the area from near the ocean surface to the seafloor. Primary uses of this sonar data include mapping of fish schools and other mid-water marine organisms, assessing biological abundance, identifying species, and characterizing habitat . Additionally, it is used to map underwater gas seeps and remotely monitor undersea oil spills.
+
+The Water Column Sonar Data Archive was established in collaboration with NOAA Fisheries and the University of Colorado in 2014. This archive preserves sonar data collected by NOAA line offices, academia, industry, and international institutions, offering free, global access to over 300+ terabytes of data. This valuable resource helps answer complex questions about our oceans and facilitates exploration beyond the data's original collection purpose.
+
+![Water column sonar data collected on the NOAA Okeanos Explorer in the North Atlantic Ocean. Sonar data are overlaid onto coastal relief model bathymetry.](/Images/WCSD.jpg)
+
+**Contact Us:** [wcd.info\@noaa.gov](mailto:wcd.info@noaa.gov)
+
+### Passive Acoustic Data Archive {#passive-acoustic-data-archive}
+
+Passive acoustic monitoring is a powerful observational tool used by NOAA and other agencies to detect and characterize sounds produced by fish and marine mammals, ambient noise from physical oceanographic processes, and anthropogenic noise sources that contribute to the overall ocean noise environment. The Passive Acoustic Data Archive, established in 2017, supports the stewardship of these valuable data collected by NOAA and partners. The archive's database schema was designed after Tethys, an open source temporal-spatial database for metadata related to acoustic recordings, developed by Dr.Marie Roche.
+
+The archive hosts free, globally accessible raw audio files and data products, supporting scientific research and management needs such as monitoring and protecting marine mammal populations, tracking geological activity, and assessing the impacts of human noise on marine life. Notably, the NCEI Passive Acoustic Data Archive staff supported the NOAA-Navy Sanctuary Soundscape Monitoring Project (SanctSound) by stewarding hundreds of raw audio files and data products and developing an educational and interactive portal for the project.
+
+Notably, the NCEI Passive Acoustic Data Archive staff supported the NOAA-Navy Sanctuary Soundscape Monitoring Project (SanctSound) by stewarding hundreds of raw audio files and data products and developing an educational and interactive portal for the project.
+
+![There are three main sources of sound in the ocean: physical (green), biological (blue), and human-made (orange).Credit: NOAA NEFSC Passive Acoustic Research Group](/Images/1500x1000-Passive-Acoustics-Soundscape-infographic-NEFSC.png){width="512"}
+
+![A wide range of technology is used to record underwater sound. Credit: NOAA NEFSC Passive Acoustic Research Group](/Images/Soundscape%20large.png)
+
+**Contact Us:** [pad.info\@noaa.gov](mailto:%20pad.info@noaa.gov)

@@ -1,0 +1,31 @@
+---
+title: "Meet the Team"
+
+page-layout: full
+---
+
+The CIRES at NCEI Ocean Acoustics Archive team (Team Fish) is composed of dedicated professionals working together to support a wide range of projects and data sources.
+
+### Meet Our Team
+
+Dr. Carrie Wall, Team Lead
+
+Chuck Anderson, Sr Data Manager
+
+Dr. Megan McKenna, Passive Acoustic Data Scientist
+
+Clint Lohr, Software Engineer
+
+Emilie Barbattini, Jr Data Manager for WCSD
+
+Kanishka Ghodke, Lab Manual & Visualizations
+
+Julia Kirk, Jr Data Manager for PAD
+
+David LaPaglia, Jr Data Manager for PAD
+
+Gabrielle Dorsey, Jr Data Manager for Database Maintenance
+
+![TEAM CAT](images/TeamCat.jpg)
+
+This lab manual was created by Kanishka Ghodke. For any concerns or questions, please contact me at [kagh3581\@colorado.edu](mailto:kagh3581@colorado.edu).

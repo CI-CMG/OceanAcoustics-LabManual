@@ -1,0 +1,44 @@
+---
+title: "New Employee Onboarding"
+subtitle: "Welcome to the team! Here's what to expect in the intial days"
+page-layout: full
+editor: visual
+---
+
+### What to expect in the first 1 to 7 days
+
+Patience is key in the first week. Having to go through approvals, appointments and introductions your initial days may be overwhelming and delays getting fully onboarded are expected. However, as each day passes you will get your NOAA credentials - which will get you access to the building, your NOAA computer and then sort through the necessary access to servers, and get up to speed on what the archives are and what we do here at NCEI. There are required training courses from CU and NOAA that you will take online (see below) and several CU forms to complete that the CU team will walk you through..
+
+In short, It's a lot of paperwork, learning, waiting, and a bit of doing.
+
+### What to expect in the first month
+
+As access to all things NCEI are worked out over the first couple of weeks of the job, you should be well on your way to learning the tasks of the job, feeling integrated with the team and meeting many others in the office.
+
+Throughout this month, you will be given a lot of information and finding ways to document it, organize, and reference it will be very beneficial. The team has a couple of tools along with existing documentation - your help using these tools, providing feedback for what could be better, and additional information that is needed are always appreciated.
+
+Hopefully be able to start doing your job :)))
+
+### Things to configure
+
+Here are some onboarding guidelines so you know you are on the right track:[Onboarding Guidelines](https://docs.google.com/document/d/1ZCmSwokU0IKdIqUIcqaIzvr2q3K0XeuAtINpWlVVNQw/edit?usp=sharing)
+
+If you are a student joining the team you will most likely need to work on a Windows desktop. In order to access the servers and the mission's systems, you will need to configure the terminal application called Putty:[Putty Configuration](https://docs.google.com/document/d/1ND73sc-SUCDXGVydDk8CTiBIn-VdYxCD0vBWd0E8rjA/edit?usp=sharing)
+
+Another aspect of being a student employee includes updating your hourly timesheet each day.
+
+Instructions for configuration can be found here: [Timesheet setup for Students](https://drive.google.com/file/d/1nrxWaun2OK8dSWKtI2cr7XIeCFyVXVYA/view?usp=sharing)
+
+### Training
+
+As a NOAA and CU Employee, there will also be several training courses that you will be required to complete:
+
+NOAA training: NOAA IT Security Awareness
+
+NOAA training: Records Management Course 101
+
+CU training: Discrimination and Harassment
+
+CU training: Introduction to Export Controls
+
+Once you've gotten this far, make sure you schedule a tour of the NOAA building! As one of the nation's leaders in science and technology, the building houses several exhibits that detail the achievements of NOAA Boulder at the David Skaggs Research Center.
