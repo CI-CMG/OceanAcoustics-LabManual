@@ -3,7 +3,10 @@ project:
 
 website: 
   page-navigation: true
+
   title: "CIRES Lab Manual" 
+ 
+
   site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
   repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
   repo-actions: [edit, source, issue]
@@ -15,7 +18,9 @@ website:
   
   sidebar:
     background: "#D9E3E4"
+
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/CIRES_logo.svg"
+
     favicon: images/favicon.ico
     pinned: true
     align: center
@@ -31,6 +36,7 @@ website:
     search: true
     collapse-level: 1
     contents:
+
       - href: content/index.qmd
         text: Home
         contents:
@@ -90,6 +96,10 @@ format:
     code-overflow: wrap
     toc: true
 
+
 filters:
   - include-files.lua
   - quarto
+
+  
+
