@@ -23,7 +23,7 @@ Fundamentally, we support NOAA's mission to understand and predict our changing 
 
 We also support other federal agencies such as the U.S. Navy, Bureau for Ocean Energy Management, National Park Service, academic institutions, and several industry and international partners.
 
-## ![]()Overview of the Archives {#overview-of-the-archives}
+## Overview of the Archives {#overview-of-the-archives}
 
 This section provides an overview of the archives maintained by the Ocean Acoustics Archive Team at CIRES and NCEI.
 
