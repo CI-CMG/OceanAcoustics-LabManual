@@ -10,7 +10,7 @@ The Ocean Acoustics Archive provides long-term stewardship and global access to 
 
 Water column sonar data are routinely collected and used by NOAA to inform fish stock assessments, characterize habitat, remotely detect methane seeps, and monitor undersea oil spills.
 
-![School of fish](Images/fishschool.jpg){fig-align="left" width="494"}
+![School of fish](/Images/fishschool.jpg){fig-align="left" width="494"}
 
 ![Sound waves transmitted from ships using sonar instruments reflect back to the ship when they have hit an object(s), such as a school of fish (Source: Barbara Ambrose, NOAA)](/Images/sonar.png){fig-align="left" width="334"}
 
