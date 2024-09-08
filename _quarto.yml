@@ -26,11 +26,11 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
-      - icon: github
-        href: https://github.com/nmfs-opensci
-        text: "NMFS OpenSci"
+        href: https://www.ncei.noaa.gov/products/water-column-sonar-data
+        text: "Water Column Sonar Data"
+      - icon: globe
+        href: https://www.ncei.noaa.gov/products/passive-acoustic-data
+        text: "Passive Acoustic Data"
 
     style: "docked"
     search: true
