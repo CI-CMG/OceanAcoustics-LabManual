@@ -79,7 +79,7 @@ website:
         contents:
           - href: content/Internal SOPs.qmd#water-column-sonar-data
             text: Water Column Sonar Data
-          - href: content/Internal SOPs.qmd#passive-acoustic-data-pad
+          - href: content/Internal SOPs.qmd#passive-acoustic-data
             text: Passive Acoustic Data (PAD)
       
       - href: content/cheatsheet.qmd
