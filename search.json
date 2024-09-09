@@ -40,11 +40,24 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CIRES Lab Manual",
+    "objectID": "content/first_day.html",
+    "href": "content/first_day.html",
+    "title": "First Day Checklist",
     "section": "",
-    "text": "This repository serves as the documentation for the CIRES Ocean Acoustics Lab Manual, built using Quarto and hosted via GitHub Pages. If you would like to replicate this setup for your projects, follow the instructions below.\nThis is a common format for documentation and includes a GitHub Action that automatically builds the website when changes are made. The NOAA palette and fonts have been added to theme.scss for consistent branding. The website will be served from the gh-pages branch, a common approach to prevent cluttering the main branch with website files.\nThe GitHub Action installs R to support R code in your .qmd or .Rmd files. There’s no need to modify existing.Rmd files unless you want to use specific Quarto features like cross-referencing.\n##GitHub Setup\n\nUse the Template Click the green “Use This Template” button to create a repository with this content. Ensure your repository is public (GitHub Pages doesn’t work for private repositories unless you have a paid account). Also, check the box to include all branches to get the gh-pages branch. \nEnable GitHub Pages Go to Settings &gt; Pages, and set the source to be the gh-pages branch and the root directory for the site. \nEnable GitHub Actions Under Settings &gt; Actions &gt; General, make sure GitHub Actions are enabled. \nEdit Repository Description Add a description and a link to the webpage in the repository’s settings. You can find the URL by going to the Settings &gt; Pages section or under the Actions tab once the website is built."
+    "text": "How to get into the NOAA David Skaggs Research Center\n\nAt 325 Broadway, Boulder, CO\n\n\n\nDirections\nDirections for getting to the David Skaggs Research Center can be found at this link.\nFor more information visit - How to get into the NOAA office on first day\n\n\nDress Code\nTeam Fish at NCEI has a relaxed environment when it comes to the dress code. We describe ourselves as a step below business casual. No need to wear a blazer or a pencil skirt unless you experience the rare occasion when congressional staff or NOAA directors visit.\nTypically jeans, shorts, t-shirts, and sneakers are totally acceptable, but do keep in mind that our team will make fun of you if you come in wearing something inappropriate. Nevertheless, many colleagues still dress in business casual attire so feel free to dress as you prefer!\nA good rule of thumb is “wear what you want but avoid anything that you would not wear in front of your grandma.”\nAnother reminder is that despite the summer heat, the office is relatively chilly no matter the time of the year, so we always recommend bringing a small jacket or sweater just in case.\n\n\nWhat to Bring\nItems to bring are a water bottle to deal with the really dry climate, laptop and charger unless you know there will be a computer waiting for you, notebook and pen, and lunch. Emotional support stuffed animals are also welcome.",
+    "crumbs": [
+      "First Day Checklist"
+    ]
+  },
+  {
+    "objectID": "content/About.html",
+    "href": "content/About.html",
+    "title": "Meet the Team",
+    "section": "",
+    "text": "The CIRES at NCEI Ocean Acoustics Archive team (Team Fish) is composed of dedicated professionals working together to support a wide range of projects and data sources.\n\nMeet Our Team\nDr. Carrie Wall, Team Lead\nChuck Anderson, Sr Data Manager\nDr. Megan McKenna, Passive Acoustic Data Scientist\nClint Lohr, Software Engineer\nEmilie Barbattini, Jr Data Manager for WCSD\nKanishka Ghodke, Lab Manual & Visualizations\nJulia Kirk, Jr Data Manager for PAD\nDavid LaPaglia, Jr Data Manager for PAD\nGabrielle Dorsey, Jr Data Manager for Database Maintenance\n\n\n\nTEAM CAT\n\n\nThis lab manual was created by Kanishka Ghodke. For any concerns or questions, please contact me at kagh3581@colorado.edu.",
+    "crumbs": [
+      "Meet the team"
+    ]
   },
   {
     "objectID": "content/Accessing Data.html",
@@ -57,14 +70,11 @@
     ]
   },
   {
-    "objectID": "content/About.html",
-    "href": "content/About.html",
-    "title": "Meet the Team",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CIRES Lab Manual",
     "section": "",
-    "text": "The CIRES at NCEI Ocean Acoustics Archive team (Team Fish) is composed of dedicated professionals working together to support a wide range of projects and data sources.\n\nMeet Our Team\nDr. Carrie Wall, Team Lead\nChuck Anderson, Sr Data Manager\nDr. Megan McKenna, Passive Acoustic Data Scientist\nClint Lohr, Software Engineer\nEmilie Barbattini, Jr Data Manager for WCSD\nKanishka Ghodke, Lab Manual & Visualizations\nJulia Kirk, Jr Data Manager for PAD\nDavid LaPaglia, Jr Data Manager for PAD\nGabrielle Dorsey, Jr Data Manager for Database Maintenance\n\n\n\nTEAM CAT\n\n\nThis lab manual was created by Kanishka Ghodke. For any concerns or questions, please contact me at kagh3581@colorado.edu.",
-    "crumbs": [
-      "Meet the team"
-    ]
+    "text": "This repository serves as the documentation for the CIRES Ocean Acoustics Lab Manual, built using Quarto and hosted via GitHub Pages. If you would like to replicate this setup for your projects, follow the instructions below.\nThis is a common format for documentation and includes a GitHub Action that automatically builds the website when changes are made. The NOAA palette and fonts have been added to theme.scss for consistent branding. The website will be served from the gh-pages branch, a common approach to prevent cluttering the main branch with website files.\nThe GitHub Action installs R to support R code in your .qmd or .Rmd files. There’s no need to modify existing.Rmd files unless you want to use specific Quarto features like cross-referencing.\n##GitHub Setup\n\nUse the Template Click the green “Use This Template” button to create a repository with this content. Ensure your repository is public (GitHub Pages doesn’t work for private repositories unless you have a paid account). Also, check the box to include all branches to get the gh-pages branch. \nEnable GitHub Pages Go to Settings &gt; Pages, and set the source to be the gh-pages branch and the root directory for the site. \nEnable GitHub Actions Under Settings &gt; Actions &gt; General, make sure GitHub Actions are enabled. \nEdit Repository Description Add a description and a link to the webpage in the repository’s settings. You can find the URL by going to the Settings &gt; Pages section or under the Actions tab once the website is built."
   },
   {
     "objectID": "content/Data Overview.html",
