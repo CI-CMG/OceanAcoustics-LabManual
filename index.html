@@ -216,11 +216,17 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#github-setup" id="toc-github-setup" class="nav-link active" data-scroll-target="#github-setup">GitHub Setup</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -230,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -245,7 +251,8 @@ ul.task-list li input[type="checkbox"] {
 <p>This repository serves as the documentation for the CIRES Ocean Acoustics Lab Manual, built using Quarto and hosted via GitHub Pages. If you would like to replicate this setup for your projects, follow the instructions below.</p>
 <p>This is a common format for documentation and includes a GitHub Action that automatically builds the website when changes are made. The NOAA palette and fonts have been added to theme.scss for consistent branding. The website will be served from the gh-pages branch, a common approach to prevent cluttering the main branch with website files.</p>
 <p>The GitHub Action installs R to support R code in your .qmd or .Rmd files. There’s no need to modify existing.Rmd files unless you want to use specific Quarto features like cross-referencing.</p>
-<p>##GitHub Setup</p>
+<section id="github-setup" class="level2">
+<h2 class="anchored" data-anchor-id="github-setup">GitHub Setup</h2>
 <ul>
 <li><p>Use the Template Click the green “Use This Template” button to create a repository with this content. Ensure your repository is public (GitHub Pages doesn’t work for private repositories unless you have a paid account). Also, check the box to include all branches to get the gh-pages branch. <img width="637" alt="image" src="https://user-images.githubusercontent.com/2545978/197051535-c43c62de-17e8-40bf-a536-3eea8db250c4.png"></p></li>
 <li><p>Enable GitHub Pages Go to Settings &gt; Pages, and set the source to be the gh-pages branch and the root directory for the site. <img width="540" alt="image" src="https://user-images.githubusercontent.com/2545978/196808262-3d2262be-b9b5-4897-bba5-fc2f056dd335.png"></p></li>
@@ -254,6 +261,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -828,7 +836,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
