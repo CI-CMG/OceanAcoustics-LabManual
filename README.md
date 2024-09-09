@@ -33,6 +33,35 @@ Here's the link to the template for [a simple Quarto website](https://nmfs-opens
 * Edit the qmd or md files in the `content` folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations, and much more).
 * Add the files to `_quarto.yml`
 
+## Publishing Your Quarto Webpage
+
+To publish your Quarto webpage with a URL like:
+yourname.github.io/yourrepo, follow these steps:
+
+1. Turn on GitHub Pages
+Go to Settings > Pages in your repository.
+Set the source to be the gh-pages branch and the root directory.
+Enable GitHub Actions under Settings > Actions > General.
+Once set up, the GitHub Action will automatically rebuild your website every time you push changes to the repository.
+
+2. First Publish to gh-pages
+The first time you publish your site, you need to do it locally:
+
+Open a terminal and navigate to your repository directory.
+Run the command to publish your site to the gh-pages branch:
+quarto publish gh-pages
+This will render your webpage and push the content to the gh-pages branch.
+
+3. Don’t Want to Use gh-pages?
+If you prefer to host your website on the main branch (for example, if you want the website to be archived with each release):
+
+*Modify your Quarto project to output the website to the docs directory.
+Change GitHub Pages settings to use the main branch and the docs directory.
+Ensure that the docs directory is not in your .gitignore file.
+Publish your website locally for the first time by running:
+quarto publish
+Finally, make sure to configure your GitHub Actions workflow to push the website to the main branch instead of the gh-pages branch.
+
 ## Troubleshooting builds
 
 The most common trouble users run into is that the book is not rendering. Check the following:
