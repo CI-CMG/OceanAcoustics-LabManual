@@ -57,7 +57,7 @@ website:
        
         
       - href: content/Archives.qmd
-        text: Submitting Archive Data
+        text: Submitting Data
         contents:
           - href: content/Archives.qmd#preparing-water-column-sonar-data-to-submit-to-the-archive
             text: Preparing Water Column Sonar Data to Submit to the Archive
