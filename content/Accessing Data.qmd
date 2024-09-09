@@ -34,4 +34,3 @@ For very large , \>500GB, data orders, FTP delivery is not feasible. For these l
 
 \
 
-[Previous Page](content/Accessing Data.qmd) | [Next Page](https://ci-cmg.github.io/OceanAcoustics-LabManual/content/Pipeline.html)
