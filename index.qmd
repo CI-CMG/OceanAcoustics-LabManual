@@ -10,7 +10,7 @@ This is a common format for documentation and includes a GitHub Action that auto
 
 The GitHub Action installs R to support R code in your .qmd or .Rmd files. There’s no need to modify existing.Rmd files unless you want to use specific Quarto features like cross-referencing.
 
-##GitHub Setup
+## GitHub Setup
 
 * Use the Template
 Click the green "Use This Template" button to create a repository with this content. Ensure your repository is public (GitHub Pages doesn't work for private repositories unless you have a paid account). Also, check the box to include all branches to get the gh-pages branch.
