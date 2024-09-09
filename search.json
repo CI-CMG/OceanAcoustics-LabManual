@@ -150,16 +150,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "NOAA quarto simple with R",
+    "title": "CIRES Lab Manual",
     "section": "",
-    "text": "This is a template for a simple Quarto website that looks like a “book”. This is a common format for documentation. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.\nThe GitHub Action installs R so you can have R code in your qmd or Rmd files. Note, you do not need to make changes to your Rmd files unless your need Quarto features like cross-references."
-  },
-  {
-    "objectID": "index.html#github-set-up",
-    "href": "index.html#github-set-up",
-    "title": "NOAA quarto simple with R",
-    "section": "GitHub Set-up",
-    "text": "GitHub Set-up\n\nClick the green “use template” button to make a repository with this content. Make sure to make your repo public (since GitHub Pages doesn’t work on private repos unless you have a paid account) and check box to include all the branches (so that you get the gh-pages branch). \nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and root directory. \nTurn on GitHub Actions under Settings &gt; Actions &gt; General \nEdit the repo description and Readme to add a link to the webpage. When you edit the description, you will see the link url in the url box or you can click on the Actions tab or the Settings &gt; Pages page to find the url."
+    "text": "This repository serves as the documentation for the CIRES Ocean Acoustics Lab Manual, built using Quarto and hosted via GitHub Pages. If you would like to replicate this setup for your projects, follow the instructions below.\nThis is a common format for documentation and includes a GitHub Action that automatically builds the website when changes are made. The NOAA palette and fonts have been added to theme.scss for consistent branding. The website will be served from the gh-pages branch, a common approach to prevent cluttering the main branch with website files.\nThe GitHub Action installs R to support R code in your .qmd or .Rmd files. There’s no need to modify existing.Rmd files unless you want to use specific Quarto features like cross-referencing.\n##GitHub Setup\n\nUse the Template Click the green “Use This Template” button to create a repository with this content. Ensure your repository is public (GitHub Pages doesn’t work for private repositories unless you have a paid account). Also, check the box to include all branches to get the gh-pages branch. \nEnable GitHub Pages Go to Settings &gt; Pages, and set the source to be the gh-pages branch and the root directory for the site. \nEnable GitHub Actions Under Settings &gt; Actions &gt; General, make sure GitHub Actions are enabled. \nEdit Repository Description Add a description and a link to the webpage in the repository’s settings. You can find the URL by going to the Settings &gt; Pages section or under the Actions tab once the website is built."
   },
   {
     "objectID": "content/rmarkdown.html",
