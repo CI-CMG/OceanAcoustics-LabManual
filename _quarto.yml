@@ -54,11 +54,7 @@ website:
         text: New Employee Onboarding
       - href: content/Data Overview.qmd
         text: Overview Of Data We Work With
-        contents:
-          - href: content/Data Overview.qmd#water-column-sonar-data
-            text: Water Column Sonar Data
-          - href: content/Data Overview.qmd#passive-acoustic-monitoring
-            text: Passive Acoustic Monitoring
+       
         
       - href: content/Archives.qmd
         text: Submitting Archive Data
