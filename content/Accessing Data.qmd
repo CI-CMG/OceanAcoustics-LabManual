@@ -33,3 +33,5 @@ Receiving data directly from NCEI generally involves our anonymous FTP server. S
 For very large , \>500GB, data orders, FTP delivery is not feasible. For these large orders, an external hard drive(s) of sufficient capacity has to be shipped to NCEI. We will load your data and ship the drive(s) back to you. You will be alerted if you try ordering a very large volume of data and a data manager will reach out to coordinate delivery via external media.
 
 \
+
+[Previous Page](content/Accessing Data.qmd) | [Next Page](content/Pipeline.qmd)
