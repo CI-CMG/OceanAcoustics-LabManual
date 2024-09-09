@@ -6,7 +6,7 @@ website:
 
   title: "CIRES Lab Manual" 
 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
+  site-url: "https://ci-cmg.github.io/OceanAcoustics-LabManual/content/" 
   repo-url: "https://github.com/CI-CMG/OceanAcoustics-LabManual"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
