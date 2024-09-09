@@ -40,69 +40,25 @@
     ]
   },
   {
-    "objectID": "content/first_day.html",
-    "href": "content/first_day.html",
-    "title": "First Day Checklist",
+    "objectID": "content/code.html",
+    "href": "content/code.html",
+    "title": "Rendering with Code",
     "section": "",
-    "text": "How to get into the NOAA David Skaggs Research Center\n\nAt 325 Broadway, Boulder, CO\n\n\n\nDirections\nDirections for getting to the David Skaggs Research Center can be found at this link.\nFor more information visit - How to get into the NOAA office on first day\n\n\nDress Code\nTeam Fish at NCEI has a relaxed environment when it comes to the dress code. We describe ourselves as a step below business casual. No need to wear a blazer or a pencil skirt unless you experience the rare occasion when congressional staff or NOAA directors visit.\nTypically jeans, shorts, t-shirts, and sneakers are totally acceptable, but do keep in mind that our team will make fun of you if you come in wearing something inappropriate. Nevertheless, many colleagues still dress in business casual attire so feel free to dress as you prefer!\nA good rule of thumb is “wear what you want but avoid anything that you would not wear in front of your grandma.”\nAnother reminder is that despite the summer heat, the office is relatively chilly no matter the time of the year, so we always recommend bringing a small jacket or sweater just in case.\n\n\nWhat to Bring\nItems to bring are a water bottle to deal with the really dry climate, laptop and charger unless you know there will be a computer waiting for you, notebook and pen, and lunch. Emotional support stuffed animals are also welcome.",
-    "crumbs": [
-      "First Day Checklist"
-    ]
+    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326"
   },
   {
-    "objectID": "content/About.html",
-    "href": "content/About.html",
-    "title": "Meet the Team",
-    "section": "",
-    "text": "The CIRES at NCEI Ocean Acoustics Archive team (Team Fish) is composed of dedicated professionals working together to support a wide range of projects and data sources.\n\nMeet Our Team\nDr. Carrie Wall, Team Lead\nChuck Anderson, Sr Data Manager\nDr. Megan McKenna, Passive Acoustic Data Scientist\nClint Lohr, Software Engineer\nEmilie Barbattini, Jr Data Manager for WCSD\nKanishka Ghodke, Lab Manual & Visualizations\nJulia Kirk, Jr Data Manager for PAD\nDavid LaPaglia, Jr Data Manager for PAD\nGabrielle Dorsey, Jr Data Manager for Database Maintenance\n\n\n\nTEAM CAT\n\n\nThis lab manual was created by Kanishka Ghodke. For any concerns or questions, please contact me at kagh3581@colorado.edu.",
-    "crumbs": [
-      "Meet the team"
-    ]
+    "objectID": "content/code.html#modify-the-github-action",
+    "href": "content/code.html#modify-the-github-action",
+    "title": "Rendering with Code",
+    "section": "Modify the GitHub Action",
+    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it."
   },
   {
-    "objectID": "content/Accessing Data.html",
-    "href": "content/Accessing Data.html",
-    "title": "Guidance for Accessing Data",
-    "section": "",
-    "text": "All publicly accessible data and products can be discovered in our dedicated map viewers.\n\nWater Column Sonar Data\nPassive Acoustic Data\n\nThe map viewers allow filtering of datasets based on various criteria and also allow data ordering. When ordering data there is the option of receiving it directly from NCEI or accessing the data from a cloud repository that is part of the NOAA Open Data Dissemination (NODD) project. The map viewer  will provide additional information to access specific files, but data can also be accessed directly from the NODD buckets using the procedures below.\nWCSD Cloud\nThe WCSD archive can be accessed on the Amazon Web Services (AWS) Cloud. Using the AWS CLI tool, you can download files from the command line using the following command structure:\naws s3 cp s3://noaa-wcsd-pds/  –recursive –no-sign-request\nPAD Cloud\n\nThe PAD archive can be accessed on Google Cloud Platform (GCP). For more information on downloading from the cloud, see this Download Guide. Using the gsutil tool, you can download files from the command line using the following command structure:\ngsutil -m cp -r gs://noaa-passive-bioacoustic/ rsync \nFTP\nReceiving data directly from NCEI generally involves our anonymous FTP server. Smaller orders are processed automatically and you will receive an email with a download link. Larger orders are processed by our data managers and posted to our FTP server. In this case, the data manager will contact you with downloading instructions.\n\nExternal Media Delivery\nFor very large , &gt;500GB, data orders, FTP delivery is not feasible. For these large orders, an external hard drive(s) of sufficient capacity has to be shipped to NCEI. We will load your data and ship the drive(s) back to you. You will be alerted if you try ordering a very large volume of data and a data manager will reach out to coordinate delivery via external media.",
-    "crumbs": [
-      "Guidance for Accessing Data"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CIRES Lab Manual",
-    "section": "",
-    "text": "This repository serves as the documentation for the CIRES Ocean Acoustics Lab Manual, built using Quarto and hosted via GitHub Pages. If you would like to replicate this setup for your projects, follow the instructions below.\nThis is a common format for documentation and includes a GitHub Action that automatically builds the website when changes are made. The NOAA palette and fonts have been added to theme.scss for consistent branding. The website will be served from the gh-pages branch, a common approach to prevent cluttering the main branch with website files.\nThe GitHub Action installs R to support R code in your .qmd or .Rmd files. There’s no need to modify existing.Rmd files unless you want to use specific Quarto features like cross-referencing.\n##GitHub Setup\n\nUse the Template Click the green “Use This Template” button to create a repository with this content. Ensure your repository is public (GitHub Pages doesn’t work for private repositories unless you have a paid account). Also, check the box to include all branches to get the gh-pages branch. \nEnable GitHub Pages Go to Settings &gt; Pages, and set the source to be the gh-pages branch and the root directory for the site. \nEnable GitHub Actions Under Settings &gt; Actions &gt; General, make sure GitHub Actions are enabled. \nEdit Repository Description Add a description and a link to the webpage in the repository’s settings. You can find the URL by going to the Settings &gt; Pages section or under the Actions tab once the website is built."
-  },
-  {
-    "objectID": "content/publishing.html",
-    "href": "content/publishing.html",
-    "title": "Publishing",
-    "section": "",
-    "text": "To get your Quarto webpage to show up with the url\nyou have a few steps."
-  },
-  {
-    "objectID": "content/publishing.html#turn-on-github-pages-for-your-repo",
-    "href": "content/publishing.html#turn-on-github-pages-for-your-repo",
-    "title": "Publishing",
-    "section": "Turn on GitHub Pages for your repo",
-    "text": "Turn on GitHub Pages for your repo\n\nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and the root directory.\nTurn on GitHub Actions under Settings &gt; Actions &gt; General\n\nThe GitHub Action will automatically recreate your website when you push to GitHub after you do the initial gh-pages set-up"
-  },
-  {
-    "objectID": "content/publishing.html#do-your-first-publish-to-gh-pages",
-    "href": "content/publishing.html#do-your-first-publish-to-gh-pages",
-    "title": "Publishing",
-    "section": "Do your first publish to gh-pages",
-    "text": "Do your first publish to gh-pages\nThe first time you publish to gh-pages, you need to do so locally.\n\nOn your local computer, open a terminal window and cd to your repo directory. Here is what that cd command looks like for me. You command will look different because your local repo will be somewhere else on your computer.\n\ncd ~/Documents/GitHub/NOAA-quarto-simple\n\nPublish to the gh-pages. In the terminal type\n\nquarto publish gh-pages\nThis is going to render your webpage and then push the _site contents to the gh-pages branch."
-  },
-  {
-    "objectID": "content/publishing.html#dont-like-using-gh-pages",
-    "href": "content/publishing.html#dont-like-using-gh-pages",
-    "title": "Publishing",
-    "section": "Don’t like using gh-pages?",
-    "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
+    "objectID": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "href": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "title": "Rendering with Code",
+    "section": "Render locally and publish to gh-pages branch",
+    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages"
   },
   {
     "objectID": "content/add-content.html",
@@ -126,25 +82,31 @@
     "text": "Add your pages the project\n\nAdd the files to _quarto.yml &gt;&gt;&gt;&gt;&gt;&gt;&gt; cfc4f4e39bbdfd6274526bc7e1ffbc0b78a54276"
   },
   {
-    "objectID": "content/code.html",
-    "href": "content/code.html",
-    "title": "Rendering with Code",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CIRES Lab Manual",
     "section": "",
-    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326"
+    "text": "This repository serves as the documentation for the CIRES Ocean Acoustics Lab Manual, built using Quarto and hosted via GitHub Pages. If you would like to replicate this setup for your projects, follow the instructions below.\nThis is a common format for documentation and includes a GitHub Action that automatically builds the website when changes are made. The NOAA palette and fonts have been added to theme.scss for consistent branding. The website will be served from the gh-pages branch, a common approach to prevent cluttering the main branch with website files.\nThe GitHub Action installs R to support R code in your .qmd or .Rmd files. There’s no need to modify existing.Rmd files unless you want to use specific Quarto features like cross-referencing.\n##GitHub Setup\n\nUse the Template Click the green “Use This Template” button to create a repository with this content. Ensure your repository is public (GitHub Pages doesn’t work for private repositories unless you have a paid account). Also, check the box to include all branches to get the gh-pages branch. \nEnable GitHub Pages Go to Settings &gt; Pages, and set the source to be the gh-pages branch and the root directory for the site. \nEnable GitHub Actions Under Settings &gt; Actions &gt; General, make sure GitHub Actions are enabled. \nEdit Repository Description Add a description and a link to the webpage in the repository’s settings. You can find the URL by going to the Settings &gt; Pages section or under the Actions tab once the website is built."
   },
   {
-    "objectID": "content/code.html#modify-the-github-action",
-    "href": "content/code.html#modify-the-github-action",
-    "title": "Rendering with Code",
-    "section": "Modify the GitHub Action",
-    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it."
+    "objectID": "content/Accessing Data.html",
+    "href": "content/Accessing Data.html",
+    "title": "Guidance for Accessing Data",
+    "section": "",
+    "text": "All publicly accessible data and products can be discovered in our dedicated map viewers.\n\nWater Column Sonar Data\nPassive Acoustic Data\n\nThe map viewers allow filtering of datasets based on various criteria and also allow data ordering. When ordering data there is the option of receiving it directly from NCEI or accessing the data from a cloud repository that is part of the NOAA Open Data Dissemination (NODD) project. The map viewer  will provide additional information to access specific files, but data can also be accessed directly from the NODD buckets using the procedures below.\nWCSD Cloud\nThe WCSD archive can be accessed on the Amazon Web Services (AWS) Cloud. Using the AWS CLI tool, you can download files from the command line using the following command structure:\naws s3 cp s3://noaa-wcsd-pds/  –recursive –no-sign-request\nPAD Cloud\n\nThe PAD archive can be accessed on Google Cloud Platform (GCP). For more information on downloading from the cloud, see this Download Guide. Using the gsutil tool, you can download files from the command line using the following command structure:\ngsutil -m cp -r gs://noaa-passive-bioacoustic/ rsync \nFTP\nReceiving data directly from NCEI generally involves our anonymous FTP server. Smaller orders are processed automatically and you will receive an email with a download link. Larger orders are processed by our data managers and posted to our FTP server. In this case, the data manager will contact you with downloading instructions.\n\nExternal Media Delivery\nFor very large , &gt;500GB, data orders, FTP delivery is not feasible. For these large orders, an external hard drive(s) of sufficient capacity has to be shipped to NCEI. We will load your data and ship the drive(s) back to you. You will be alerted if you try ordering a very large volume of data and a data manager will reach out to coordinate delivery via external media.",
+    "crumbs": [
+      "Guidance for Accessing Data"
+    ]
   },
   {
-    "objectID": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
-    "href": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
-    "title": "Rendering with Code",
-    "section": "Render locally and publish to gh-pages branch",
-    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages"
+    "objectID": "content/About.html",
+    "href": "content/About.html",
+    "title": "Meet the Team",
+    "section": "",
+    "text": "The CIRES at NCEI Ocean Acoustics Archive team (Team Fish) is composed of dedicated professionals working together to support a wide range of projects and data sources.\n\nMeet Our Team\nDr. Carrie Wall, Team Lead\nChuck Anderson, Sr Data Manager\nDr. Megan McKenna, Passive Acoustic Data Scientist\nClint Lohr, Software Engineer\nEmilie Barbattini, Jr Data Manager for WCSD\nKanishka Ghodke, Lab Manual & Visualizations\nJulia Kirk, Jr Data Manager for PAD\nDavid LaPaglia, Jr Data Manager for PAD\nGabrielle Dorsey, Jr Data Manager for Database Maintenance\n\n\n\nTEAM CAT\n\n\nThis lab manual was created by Kanishka Ghodke. For any concerns or questions, please contact me at kagh3581@colorado.edu.",
+    "crumbs": [
+      "Meet the team"
+    ]
   },
   {
     "objectID": "content/Data Overview.html",
