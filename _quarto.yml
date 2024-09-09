@@ -37,8 +37,6 @@ website:
     style: "docked"
     search: true
     collapse-level: 1
-    sidebar:
-    collapse-level: 2  # This will include main headings and subheadings in the sidebar
     contents:
 
       - href: content/index.qmd
