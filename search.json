@@ -120,6 +120,13 @@
     "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CIRES Lab Manual",
+    "section": "",
+    "text": "This repository serves as the documentation for the CIRES Ocean Acoustics Lab Manual, built using Quarto and hosted via GitHub Pages. If you would like to replicate this setup for your projects, follow the instructions below.\nThis is a common format for documentation and includes a GitHub Action that automatically builds the website when changes are made. The NOAA palette and fonts have been added to theme.scss for consistent branding. The website will be served from the gh-pages branch, a common approach to prevent cluttering the main branch with website files.\nThe GitHub Action installs R to support R code in your .qmd or .Rmd files. There’s no need to modify existing.Rmd files unless you want to use specific Quarto features like cross-referencing.\n##GitHub Setup\n\nUse the Template Click the green “Use This Template” button to create a repository with this content. Ensure your repository is public (GitHub Pages doesn’t work for private repositories unless you have a paid account). Also, check the box to include all branches to get the gh-pages branch. \nEnable GitHub Pages Go to Settings &gt; Pages, and set the source to be the gh-pages branch and the root directory for the site. \nEnable GitHub Actions Under Settings &gt; Actions &gt; General, make sure GitHub Actions are enabled. \nEdit Repository Description Add a description and a link to the webpage in the repository’s settings. You can find the URL by going to the Settings &gt; Pages section or under the Actions tab once the website is built."
+  },
+  {
     "objectID": "content/rendering.html",
     "href": "content/rendering.html",
     "title": "Rendering",
@@ -146,34 +153,6 @@
     "title": "Rendering",
     "section": "Step 3. Render within RStudio",
     "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CIRES Lab Manual",
-    "section": "",
-    "text": "This repository serves as the documentation for the CIRES Ocean Acoustics Lab Manual, built using Quarto and hosted via GitHub Pages. If you would like to replicate this setup for your projects, follow the instructions below.\nThis is a common format for documentation and includes a GitHub Action that automatically builds the website when changes are made. The NOAA palette and fonts have been added to theme.scss for consistent branding. The website will be served from the gh-pages branch, a common approach to prevent cluttering the main branch with website files.\nThe GitHub Action installs R to support R code in your .qmd or .Rmd files. There’s no need to modify existing.Rmd files unless you want to use specific Quarto features like cross-referencing.\n##GitHub Setup\n\nUse the Template Click the green “Use This Template” button to create a repository with this content. Ensure your repository is public (GitHub Pages doesn’t work for private repositories unless you have a paid account). Also, check the box to include all branches to get the gh-pages branch. \nEnable GitHub Pages Go to Settings &gt; Pages, and set the source to be the gh-pages branch and the root directory for the site. \nEnable GitHub Actions Under Settings &gt; Actions &gt; General, make sure GitHub Actions are enabled. \nEdit Repository Description Add a description and a link to the webpage in the repository’s settings. You can find the URL by going to the Settings &gt; Pages section or under the Actions tab once the website is built."
-  },
-  {
-    "objectID": "content/rmarkdown.html",
-    "href": "content/rmarkdown.html",
-    "title": "R Markdown",
-    "section": "",
-    "text": "You can include R Markdown files in your project."
-  },
-  {
-    "objectID": "content/rmarkdown.html#r-markdown",
-    "href": "content/rmarkdown.html#r-markdown",
-    "title": "R Markdown",
-    "section": "R Markdown",
-    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
-  },
-  {
-    "objectID": "content/rmarkdown.html#including-plots",
-    "href": "content/rmarkdown.html#including-plots",
-    "title": "R Markdown",
-    "section": "Including Plots",
-    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
   },
   {
     "objectID": "content/Accessing Data.html",
