@@ -5,7 +5,6 @@ website:
   page-navigation: true
 
   title: "CIRES Lab Manual" 
- 
 
   site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
   repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
@@ -18,9 +17,7 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/CIRES_logo.svg"
-
     favicon: images/favicon.ico
     pinned: true
     align: center
@@ -31,14 +28,10 @@ website:
       - icon: globe
         href: https://www.ncei.noaa.gov/products/passive-acoustic-data
         text: "Passive Acoustic Data"
-
     style: "docked"
     search: true
-    collapse-level: 1
-    sidebar:
     collapse-level: 2  # This will include main headings and subheadings in the sidebar
     contents:
-
       - href: content/index.qmd
         text: Home
         contents:
@@ -46,10 +39,8 @@ website:
             text: Introduction
           - href: content/index.qmd#overview-of-the-archives
             text: Overview of the Archives
-                
       - href: content/first_day.qmd
         text: First Day Checklist
-        
       - href: content/Onboarding.qmd
         text: New Employee Onboarding
       - href: content/Data Overview.qmd
@@ -59,7 +50,6 @@ website:
             text: Water Column Sonar Data
           - href: content/Data Overview.qmd#passive-acoustic-monitoring
             text: Passive Acoustic Monitoring
-        
       - href: content/Archives.qmd
         text: Submitting Archive Data
         contents:
@@ -69,13 +59,10 @@ website:
             text: Preparing Passive Acoustic Data to Submit to the Archive
           - href: content/Archives.qmd#submitting-data-packages-to-the-archive
             text: Submitting Data Packages to the Archive
-          
       - href: content/Accessing Data.qmd
         text: Guidance for Accessing Data
-
       - href: content/Pipeline.qmd
         text: Our Data Pipeline
-
       - href: content/Internal SOPs.qmd
         text: Internal SOPs
         contents:
@@ -83,7 +70,6 @@ website:
             text: Water Column Sonar Data
           - href: content/Internal SOPs.qmd#passive-acoustic-data
             text: Passive Acoustic Data (PAD)
-      
       - href: content/cheatsheet.qmd
         text: Cheat sheets
       - href: content/About.qmd
@@ -98,10 +84,6 @@ format:
     code-overflow: wrap
     toc: true
 
-
 filters:
   - include-files.lua
   - quarto
-
-  
-
