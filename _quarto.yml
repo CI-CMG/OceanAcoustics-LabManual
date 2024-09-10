@@ -42,10 +42,7 @@ website:
       - href: content/index.qmd
         text: Home
         contents:
-          - href: content/index.qmd
-            text: Introduction
-          - href: content/index.qmd#overview-of-the-archives
-            text: Overview of the Archives
+         
                 
       - href: content/first_day.qmd
         text: First Day Checklist
@@ -58,13 +55,7 @@ website:
         
       - href: content/Archives.qmd
         text: Submitting Data
-        contents:
-          - href: content/Archives.qmd#preparing-water-column-sonar-data-to-submit-to-the-archive
-            text: Preparing Water Column Sonar Data to Submit to the Archive
-          - href: content/Archives.qmd#preparing-passive-acoustic-data-to-submit-to-the-archive
-            text: Preparing Passive Acoustic Data to Submit to the Archive
-          - href: content/Archives.qmd#submitting-data-packages-to-the-archive
-            text: Submitting Data Packages to the Archive
+       
           
       - href: content/Accessing Data.qmd
         text: Guidance for Accessing Data
