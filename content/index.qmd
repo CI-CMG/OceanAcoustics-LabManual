@@ -29,7 +29,7 @@ This section provides an overview of the archives maintained by the Ocean Acoust
 
 ### Water Column Sonar Data Archive {#water-column-sonar-data-archive}
 
-NOAA collects and uses active acoustic (sonar) data for various mapping requirements, focusing on the area from near the ocean surface to the seafloor. Primary uses of this sonar data include mapping of fish schools and other mid-water marine organisms, assessing biological abundance, identifying species, and characterizing habitat . Additionally, it is used to map underwater gas seeps and remotely monitor undersea oil spills.
+NOAA collects and uses active acoustic (sonar) data for various mapping requirements, focusing on the area from near the ocean surface to the seafloor. Primary uses of this sonar data include mapping of fish schools and other mid-water marine organisms, assessing biological abundance, identifying species, and characterizing habitat. Additionally, it is used to map underwater gas seeps and remotely monitor undersea oil spills.
 
 The Water Column Sonar Data Archive was established in collaboration with NOAA Fisheries and the University of Colorado in 2014. This archive preserves sonar data collected by NOAA line offices, academia, industry, and international institutions, offering free, global access to over 300+ terabytes of data. This valuable resource helps answer complex questions about our oceans and facilitates exploration beyond the data's original collection purpose.
 
