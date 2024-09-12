@@ -20,7 +20,7 @@ Quincy Cantu, Software Engineer
 
 Emilie Barbattini, Jr Data Manager for WCSD
 
-Kanishka Ghodke, Lab Manual & Visualizations, SoundScapes Data Scientist
+Kanishka Ghodke, Lab Manual & Visualizations and SoundScapes Data Scientist
 
 Julia Kirk, Jr Data Manager for PAD
 
