@@ -113,5 +113,3 @@ Data packages can be submitted using several different pathways depending on you
 
     \
 
-
-[Previous Page](content/Data Overview.qmd) | [Next Page](content/Accessing Data.qmd)
