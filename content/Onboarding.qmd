@@ -6,7 +6,7 @@ editor: visual
 ---
 
 ### CIRES Onboarding
-Please check out this [link](https://cires.colorado.edu/work-with-cires/onboarding) for general onboarding information at CIRES including orientiation, benefits, leave and timesheets, and other to-dos 
+Please check out this [link](https://cires.colorado.edu/work-with-cires/onboarding) for general onboarding information at CIRES including orientiation, benefits, leave and timesheets, and other to-dos. There is also NOAA-Specific information and important resources so be sure to review all the content.
 
 ### What to expect in the first 1 to 7 days
 
