@@ -21,9 +21,9 @@ Hopefully be able to start doing your job :)))
 
 ### Things to configure
 
-Here are some onboarding guidelines so you know you are on the right track:[Onboarding Guidelines](https://docs.google.com/document/d/1ZCmSwokU0IKdIqUIcqaIzvr2q3K0XeuAtINpWlVVNQw/edit?usp=sharing)
+Here are some onboarding guidelines so you know you are on the right track: [Onboarding Guidelines](https://docs.google.com/document/d/1ZCmSwokU0IKdIqUIcqaIzvr2q3K0XeuAtINpWlVVNQw/edit?usp=sharing)
 
-If you are a student joining the team you will most likely need to work on a Windows desktop. In order to access the servers and the mission's systems, you will need to configure the terminal application called Putty:[Putty Configuration](https://docs.google.com/document/d/1ND73sc-SUCDXGVydDk8CTiBIn-VdYxCD0vBWd0E8rjA/edit?usp=sharing)
+If you are a student joining the team you will most likely need to work on a Windows desktop. In order to access the servers and the mission's systems, you will need to configure the terminal application called Putty: [Putty Configuration](https://docs.google.com/document/d/1ND73sc-SUCDXGVydDk8CTiBIn-VdYxCD0vBWd0E8rjA/edit?usp=sharing)
 
 Another aspect of being a student employee includes updating your hourly timesheet each day.
 
