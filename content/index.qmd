@@ -45,7 +45,7 @@ The archive hosts free, globally accessible raw audio files and data products, s
 
 Notably, the NCEI Passive Acoustic Data Archive staff supported the NOAA-Navy Sanctuary Soundscape Monitoring Project (SanctSound) by stewarding hundreds of raw audio files and data products and developing an educational and interactive portal for the project.
 
-![There are three main sources of sound in the ocean: physical (green), biological (blue), and human-made (orange).Credit: NOAA NEFSC Passive Acoustic Research Group](/Images/1500x1000-Passive-Acoustics-Soundscape-infographic-NEFSC.png){width="512"}
+![There are three main sources of sound in the ocean: physical (green), biological (blue), and human-made (orange). Credit: NOAA NEFSC Passive Acoustic Research Group](/Images/1500x1000-Passive-Acoustics-Soundscape-infographic-NEFSC.png){width="512"}
 
 ![A wide range of technology is used to record underwater sound. Credit: NOAA NEFSC Passive Acoustic Research Group](/Images/Soundscape%20large.png)
 
