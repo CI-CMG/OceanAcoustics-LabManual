@@ -50,7 +50,7 @@ website:
       - href: content/Onboarding.qmd
         text: New Employee Onboarding
       - href: content/Data Overview.qmd
-        text: Overview Of Data We Work With
+        text: Overview Of Ocean Acoustic Data
        
         
       - href: content/Archives.qmd
