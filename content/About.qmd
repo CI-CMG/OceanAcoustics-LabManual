@@ -33,5 +33,8 @@ Gabrielle Dorsey, Jr Data Manager for Database Maintenance
 
 From left: Quincy, Clint, Chuck, David, Carrie, Emilie, Julia, Gabi, and Kanishka. *Not pictured: Megan, but we hope to have an updated or additioanl team picture soon!* 
 
+![Team Fish](../Images/TeamFish_Sep2024.jpg) 
+
+From left: Quincy, Gabi, Megan, Julia, David, Carrie, Emilie, Clint, and Chuck. *Not pictured: Kanishka* 
 
 This lab manual was created by Kanishka Ghodke. For any concerns or questions, please contact me at [kagh3581\@colorado.edu](mailto:kagh3581@colorado.edu).
