@@ -55,7 +55,7 @@ If your raw sonar data are not in one of the supported formats or from a sonar s
 
 ### Preparing Passive Acoustic Data to Submit to the Archive
 
-Recommendations for the passive acoustic community on formatting, metadata, and submitting passive acoustic data to the NCEI Passive Acoustic Data Archive can be found in the [Archive Resources tab](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561) of the NCEI Passive Acoustic Data Archive project page .
+Recommendations for the passive acoustic community on formatting, metadata, and submitting passive acoustic data to the NCEI Passive Acoustic Data Archive can be found in the [Archive Resources tab](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561) of the NCEI Passive Acoustic Data Archive project page.
 
 #### PassivePacker
 
