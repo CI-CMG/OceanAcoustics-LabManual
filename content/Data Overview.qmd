@@ -66,6 +66,8 @@ All publicly accessible data and products in the NCEI Passive Acoustic Data Arch
 \
 **Other Links**
 
+-   [SoundCoop](https://soundcoop.portal.axds.co/#)
+
 -   [Sound in the Ocean](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdosits.org%2F&data=05%7C02%7CDavid.Lapaglia%40colorado.edu%7Cff1a45b5a12740c0bf4b08dc94914535%7C3ded8b1b070d462982e4c0b019f46057%7C1%7C0%7C638548599447702768%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=XavlXk2Rim6UahSsvQWbdONB%2BMTerq0W7Osvd80pd%2Bk%3D&reserved=0)
 
 -   [SanctSound](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsanctsound.ioos.us%2F&data=05%7C02%7CDavid.Lapaglia%40colorado.edu%7Cff1a45b5a12740c0bf4b08dc94914535%7C3ded8b1b070d462982e4c0b019f46057%7C1%7C0%7C638548599447718198%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=TZRbGshoeuhf%2F0kH%2BYnGr0%2Fp1Ra2YFBblGcr9XEBc8A%3D&reserved=0)
@@ -82,8 +84,7 @@ All publicly accessible data and products in the NCEI Passive Acoustic Data Arch
 
 -   [K. Lisa Yang Center for Conservation Bioacoustics](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.birds.cornell.edu%2Fccb%2F&data=05%7C02%7CDavid.Lapaglia%40colorado.edu%7Cff1a45b5a12740c0bf4b08dc94914535%7C3ded8b1b070d462982e4c0b019f46057%7C1%7C0%7C638548599447746697%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=q3ZnZMXnubrcmRNMfPvbkcILXh9kHIQQZmsQSbQOdaI%3D&reserved=0)
 
--   [SoundCoop](https://soundcoop.portal.axds.co/#)
-
+\
 **Additional resources**
 
 You can see a few extra resources for the data overview - [Here](https://docs.google.com/document/d/1MJgLniPK2qBzAk728dVFlNGNP92NPMULG4ZHZhaNKuU/edit)
