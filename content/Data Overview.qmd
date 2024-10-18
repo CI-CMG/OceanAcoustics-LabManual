@@ -46,7 +46,10 @@ Biological, physical, and anthropogenic sound sources are recorded using a varie
 
 All publicly accessible data and products in the NCEI Passive Acoustic Data Archive can be discovered in its [dedicated map viewer.](https://www.ncei.noaa.gov/maps/passive-acoustic-data/)
 
-**Articles of Interest:**
+\
+### Articles of Interest
+
+-   [Big data in Earth science: Emerging practice and promise](https://doi.org/10.1126/science.adh9607)
 
 -   [Conservation Bioacoustics- Listening to the Heartbeat of the Earth](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Facousticstoday.org%2Fconservation-bioacoustics-listening-to-the-heartbeat-of-the-earth-aaron-n-rice-marissa-l-garcia-laurel-b-symes-and-holger-klinck%2F&data=05%7C02%7CDavid.Lapaglia%40colorado.edu%7C0f4883d1735d4219e93408dca037947e%7C3ded8b1b070d462982e4c0b019f46057%7C1%7C0%7C638561407786285979%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=EdhqA76801KjbRTaH3i2nRR9Lvavx3dRo51Qzt4lzGY%3D&reserved=0)
 
@@ -55,6 +58,11 @@ All publicly accessible data and products in the NCEI Passive Acoustic Data Arch
 -   [Earth Science Data Repositories: Implementing the CARE Principles](https://datascience.codata.org/articles/10.5334/dsj-2024-037)
 
 -   [Listening to animal behavior to understand changing ecosystems](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(24)00145-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0169534724001459%3Fshowall%3Dtrue)
+
+-   [Listening to the Ocean Offers Insights into Climate Change](https://acousticstoday.org/listening-to-the-ocean-offers-insights-into-climate-change-lauren-a-freeman/)
+
+-   [Building an Accessible Archive for Water Column Sonar Data](https://eos.org/science-updates/building-an-accessible-archive-for-water-column-sonar-data)
+
 
 \
 **Other Links:**
