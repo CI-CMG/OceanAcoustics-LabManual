@@ -65,7 +65,13 @@ Detailed guidance on how to use PassivePacker can be found in the [web-hosted ma
 
 #### PACE
 
-The Passive Acoustic Collection Engine (PACE) tool provides a programmatic approach to packaging passive acoustic data for submission to NCEI. PACE is designed for users with a  need to submit large numbers of datasets to NCEI and/or users who manage metadata in a system such as [Tethys](https://tethys.sdsu.edu/) or a relational database. PACE can be controlled via a GUI or from the command line and supports user-created metadata spreadsheets or direct integration with database systems. PACE creates data packages like those created by PassivePacker without the need for PassivePacker's manual metadata entry. Contact the team at [pad.info\@noaa.gov](mailto:pad.info@noaa.gov) for more information on PACE.
+The [Passive Acoustic Collection Engine (PACE)](https://github.com/CI-CMG/pace) tool provides a programmatic approach to packaging passive acoustic data for submission to NCEI. PACE is designed for users with a  need to submit large numbers of datasets to NCEI and/or users who manage metadata in a system such as [Tethys](https://tethys.sdsu.edu/) or a relational database. PACE can be controlled via a GUI or from the command line (CLI) and supports user-created metadata spreadsheets or direct integration with database systems. PACE creates data packages like those created by PassivePacker without the need for PassivePacker's manual metadata entry. 
+
+JSON and Excel metadata templates for PACE can be found [here](https://github.com/CI-CMG/pace-templates). PACE internally creates JSON files to hold onto translator, metadata, and package objects. The provided templates allow you to create these objects directly. You can either insert them into the ".pace" directory that can be found in your home directory if you have booted up PACE on your local machine, or you can use the PACE command line interface to load them in. Follow the instructions at the top of the JSON template files.
+
+For the latest release go [here](https://github.com/CI-CMG/pace/releases).
+
+Guidance is continually added to the PACE GitHub but is not yet as detailed as we like. Contact the team at [pad.info\@noaa.gov](mailto:pad.info@noaa.gov) for more information.
 
 #### File Formats
 
@@ -75,11 +81,21 @@ The passive acoustic data archive accepts both audio files and data products. Da
 
 *Data product* file formats include .csv, .txt., .nc, and .wav. Similar to the audio files, proprietary, software-specific formats are not allowed.
 
+### File Names
+
+Submitted files can only include the following special characters in their names: _ - .
+
+The structure of the timestamp in the filename must be consistent throughout a data package
+
 #### **Audio File Compression**
 
 Passive acoustic data are voluminous. To save space in our storage systems and minimize the data volume for deliveries to end users, we use the [Free Lossless audio Codec](https://xiph.org/flac/) (FLAC) to compress the audio files before archiving. The .flac file format is natively supported by most processing software. However, if a user needs files in an uncompressed format, FLAC can be used  to decompress the files. The general command to decompress is flac -d \<filename\>.flac To ensure any third-party system metadata in the files is preserved, use the \--keep-foreign-metadata control flag when decompressing. Additional information on using FLAC can be found on the [FLAC command line page](https://xiph.org/flac/documentation_tools_flac.html).
 
-FLAC compression will reduce files 50% or more depending on file characteristics, so we encourage data providers to FLAC compress their files before submitting to the archive. This allows a lot more data to be submitted at a time and saves time during the archiving step. PLease note, there are limitations in the number of channels that the flac compression can accommodate and flac does not provide any additional compression for .mp3 formats. Use the tag -keep-foreign-metadata when compressing the files to esure any metadata added by your processing software is retained. Please contact the archive if you have questions regarding FLACing your data before submission.\
+FLAC compression will reduce files 50% or more depending on file characteristics, so we encourage data providers to FLAC compress their files before submitting to the archive. This allows a lot more data to be submitted at a time and saves time during the archiving step. 
+
+PLease note, there are limitations in the number of channels that the flac compression can accommodate and flac does not provide any additional compression for .mp3 formats. 
+
+Use the tag -keep-foreign-metadata when compressing the files to esure any metadata added by your processing software is retained. Please contact the archive if you have questions regarding FLACing your data before submission.\
 
 ### Submitting Data Packages to the Archive
 
