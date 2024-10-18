@@ -185,7 +185,6 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#preparing-water-column-sonar-data-to-submit-to-the-archive" id="toc-preparing-water-column-sonar-data-to-submit-to-the-archive" class="nav-link active" data-scroll-target="#preparing-water-column-sonar-data-to-submit-to-the-archive">Preparing Water Column Sonar Data to Submit to the Archive</a></li>
   <li><a href="#preparing-passive-acoustic-data-to-submit-to-the-archive" id="toc-preparing-passive-acoustic-data-to-submit-to-the-archive" class="nav-link" data-scroll-target="#preparing-passive-acoustic-data-to-submit-to-the-archive">Preparing Passive Acoustic Data to Submit to the Archive</a></li>
-  <li><a href="#file-names" id="toc-file-names" class="nav-link" data-scroll-target="#file-names">File Names</a></li>
   <li><a href="#submitting-data-packages-to-the-archive" id="toc-submitting-data-packages-to-the-archive" class="nav-link" data-scroll-target="#submitting-data-packages-to-the-archive">Submitting Data Packages to the Archive</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/edit/main/content/Archives.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/blob/main/content/Archives.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/CI-CMG/OceanAcoustics-LabManual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -290,11 +289,11 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Audio files</em> need to be in a standard format, such as <strong>.wav</strong>, <strong>x.wav</strong>, <strong>.aif</strong>, <strong>.flac</strong> or <strong>.mp3</strong>. Raw instrument file formats such as .dat are not accepted. Please contact the archive if you have questions regarding audio file formats.&nbsp;</p>
 <p><em>Data product</em> file formats include .csv, .txt., .nc, and .wav. Similar to the audio files, proprietary, software-specific formats are not allowed.</p>
 </section>
-</section>
-<section id="file-names" class="level3">
-<h3 class="anchored" data-anchor-id="file-names">File Names</h3>
+<section id="file-names" class="level4">
+<h4 class="anchored" data-anchor-id="file-names">File Names</h4>
 <p>Submitted files can only include the following special characters in their names: _ - .</p>
 <p>The structure of the timestamp in the filename must be consistent throughout a data package</p>
+</section>
 <section id="audio-file-compression" class="level4">
 <h4 class="anchored" data-anchor-id="audio-file-compression"><strong>Audio File Compression</strong></h4>
 <p>Passive acoustic data are voluminous. To save space in our storage systems and minimize the data volume for deliveries to end users, we use the <a href="https://xiph.org/flac/">Free Lossless audio Codec</a> (FLAC) to compress the audio files before archiving. The .flac file format is natively supported by most processing software. However, if a user needs files in an uncompressed format, FLAC can be used&nbsp; to decompress the files. The general command to decompress is flac -d &lt;filename&gt;.flac To ensure any third-party system metadata in the files is preserved, use the --keep-foreign-metadata control flag when decompressing. Additional information on using FLAC can be found on the <a href="https://xiph.org/flac/documentation_tools_flac.html">FLAC command line page</a>.</p>
@@ -307,11 +306,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="submitting-data-packages-to-the-archive" class="level3">
 <h3 class="anchored" data-anchor-id="submitting-data-packages-to-the-archive">Submitting Data Packages to the Archive</h3>
 <p>Data packages can be submitted using several different pathways depending on your needs and size of datasets.</p>
-<ol type="1">
-<li><p>Shipping external hard drives</p></li>
-<li><p>Uploading to NCEI’s FTP server</p></li>
-<li><p>Transferring by cloud</p></li>
-</ol>
 <!-- -->
 <ol type="1">
 <li><p><strong>Shipping External Hard Drives</strong></p>
