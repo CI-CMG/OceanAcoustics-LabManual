@@ -81,7 +81,7 @@ The passive acoustic data archive accepts both audio files and data products. Da
 
 *Data product* file formats include .csv, .txt., .nc, and .wav. Similar to the audio files, proprietary, software-specific formats are not allowed.
 
-### File Names
+#### File Names
 
 Submitted files can only include the following special characters in their names: _ - .
 
@@ -100,12 +100,6 @@ Use the tag -keep-foreign-metadata when compressing the files to esure any metad
 ### Submitting Data Packages to the Archive
 
 Data packages can be submitted using several different pathways depending on your needs and size of datasets.
-
-1.  Shipping external hard drives
-
-2.  Uploading to NCEI's FTP server
-
-3.  Transferring by cloud
 
 <!-- -->
 
