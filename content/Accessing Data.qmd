@@ -18,11 +18,11 @@ aws s3 cp s3://noaa-wcsd-pds/<specific folder path> <destination path> --recursi
 
 [**PAD Cloud**](https://console.cloud.google.com/storage/browser/noaa-passive-bioacoustic;tab=objects?prefix=&forceOnObjectsSortingFiltering=false&pli=1)
 
-\
 The PAD archive can be accessed on Google Cloud Platform (GCP). For more information on downloading from the cloud, see this [Download Guide](https://www.ngdc.noaa.gov/mgg/pad/docs/Gsutil_Guide.pdf). Using the [gsutil](https://cloud.google.com/storage/docs/gsutil) tool, you can download files from the command line using the following command structure:
 
 gsutil -m cp -r gs://noaa-passive-bioacoustic/<specific folder path> rsync <destination path>
 
+\
 **FTP**
 
 Receiving data directly from NCEI generally involves our anonymous FTP server. Smaller orders are processed automatically and you will receive an email with a download link. Larger orders are processed by our data managers and posted to our FTP server. In this case, the data manager will contact you with downloading instructions.
