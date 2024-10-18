@@ -39,7 +39,7 @@ For interacting with WCSD data requests: [WCSD Data Delivery Procedure](https://
 
 ## Software Development (DEV)
 
--   Internal Pipeline Procedures
+### Internal Pipeline Procedures
 
 -   For a general overview of Common Package Ingest (CPI) see this [folder](https://drive.google.com/drive/folders/1HR3kdociTIA1TmjCpRkOzj7Kt1U3RDhG?usp=sharing). Documentation of CPI can be found here: [CPI Overview](https://docs.google.com/document/d/1hMx30IeLQuNSGRxiAeGbq_gboVQ0NzrgsuvU_zwNhi8/edit?usp=drive_link)
 
