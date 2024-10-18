@@ -1,5 +1,5 @@
 ---
-title: "Overview of the Data We Work With"
+title: "Overview of Ocean Acoustic Data"
 
 page-layout: full
 ---
@@ -77,9 +77,7 @@ All publicly accessible data and products in the NCEI Passive Acoustic Data Arch
 
 -   [SoundCoop](https://soundcoop.portal.axds.co/#)
 
-**Extra resources**
+** Additional resources**
 
 You can see a few extra resources for the data overview - [Here](https://docs.google.com/document/d/1MJgLniPK2qBzAk728dVFlNGNP92NPMULG4ZHZhaNKuU/edit)
-
-[Previous Page](content/Onboarding.qmd) | [Next Page](content/Archives.qmd)
 
