@@ -104,18 +104,18 @@
     "objectID": "content/Internal SOPs.html#passive-acoustic-data",
     "href": "content/Internal SOPs.html#passive-acoustic-data",
     "title": "Internal SOPs",
-    "section": "Passive Acoustic Data (PAD)",
-    "text": "Passive Acoustic Data (PAD)\n\nInternal Pipeline Procedures\n\nFor overall information on the ingest process of Passive Acoustic Data, take a look at this SOP: Handling of Drives: CheckSums, Pre-ingest and Ingest\nFor a more recent version of pre-ingest: PAD Pre-Ingest 2.0 \nFor information on how to submit hard drive scanning tickets:  Handling of Drives: Scanning\nHard drives should have been logged in this spreadsheet: Hard_Drive_Tracking\nAll PAD data packages and stats should be logged in this spreadsheet: PAD Ingest Tracking \nTo fulfill For interacting with PAD data requests: PAD Data Request and Delivery - Instructions \nFor documentation on Pace, the new PAD packaging tool PACE: PACE Documentation\nFor ingesting PAD PAD Ingest SOP",
+    "section": "Passive Acoustic Data",
+    "text": "Passive Acoustic Data\n\nInternal Pipeline Procedures\n\nFor overall information on the ingest process of Passive Acoustic Data, take a look at this SOP: Handling of Drives: CheckSums, Pre-ingest and Ingest\nFor a more recent version of pre-ingest: PAD Pre-Ingest 2.0 \nFor information on how to submit hard drive scanning tickets:  Handling of Drives: Scanning\nHard drives should have been logged in this spreadsheet: Hard_Drive_Tracking\nAll PAD data packages and stats should be logged in this spreadsheet: PAD Ingest Tracking \nTo fulfill For interacting with PAD data requests: PAD Data Request and Delivery - Instructions \nFor documentation on Pace, the new PAD packaging tool PACE: PACE Documentation\nFor ingesting PAD PAD Ingest SOP",
     "crumbs": [
       "Internal SOPs"
     ]
   },
   {
-    "objectID": "content/Internal SOPs.html#software-development-dev",
-    "href": "content/Internal SOPs.html#software-development-dev",
+    "objectID": "content/Internal SOPs.html#software-development",
+    "href": "content/Internal SOPs.html#software-development",
     "title": "Internal SOPs",
-    "section": "Software Development (DEV)",
-    "text": "Software Development (DEV)\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder. Documentation of CPI can be found here: CPI Overview",
+    "section": "Software Development",
+    "text": "Software Development\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder. Documentation of CPI can be found here: CPI Overview",
     "crumbs": [
       "Internal SOPs"
     ]
