@@ -12,7 +12,7 @@ page-layout: full
 
 Directions for getting to the David Skaggs Research Center can be found at this [link](https://esrl.noaa.gov/about/pdf/DIA-DSRC-map-071014.pdf).
 
-For more information visit - [How to get into the NOAA office on first day](https://esrl.noaa.gov/about/visiting.html)
+For more information visit - [How to get into the NOAA office on first day](https://csl.noaa.gov/visiting.html)
 
 ### Dress Code
 
