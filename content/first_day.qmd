@@ -10,7 +10,7 @@ page-layout: full
 
 ### Directions {#directions}
 
-Directions for getting to the David Skaggs Research Center can be found at this [link](Images/DIA-DSRC_drivingdirections_508.pdf).
+Directions for getting to the David Skaggs Research Center can be found at this [link](https://www.ngs.noaa.gov/GRAV-D/2009Workshop/DavidSkaggsResearchCenter.pdf).
 
 For more information visit - [How to get into the NOAA office on first day](https://csl.noaa.gov/visiting.html)
 
