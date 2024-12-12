@@ -8,6 +8,9 @@ editor: visual
 ### CIRES Onboarding
 Please check out this [link](https://cires.colorado.edu/work-with-cires/onboarding) for general onboarding information at CIRES including orientiation, benefits, leave and timesheets, and other to-dos. There is also NOAA-Specific information and important resources so be sure to review all the content.
 
+### NCEI Onboarding
+Please check out this [link](https://sites.google.com/a/noaa.gov/noaa-nesdis-ncei/people-culture/onboarding-program) for spceific NCEI onboarding information including our mission and culture, governance and services, and support resources. 
+
 ### What to expect in the first 1 to 7 days
 
 Patience is key in the first week. Having to go through approvals, appointments and introductions your initial days may be overwhelming and delays getting fully onboarded are expected. However, as each day passes you will get your NOAA credentials - which will get you access to the building, your NOAA computer and then sort through the necessary access to servers, and get up to speed on what the archives are and what we do here at NCEI. There are required training courses from CU and NOAA that you will take online (see below) and several CU forms to complete that the CU team will walk you through..
