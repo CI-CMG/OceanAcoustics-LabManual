@@ -9,7 +9,7 @@ editor: visual
 Please check out this [link](https://cires.colorado.edu/work-with-cires/onboarding) for general onboarding information at CIRES including orientiation, benefits, leave and timesheets, and other to-dos. There is also NOAA-Specific information and important resources so be sure to review all the content.
 
 ### NCEI Onboarding
-Please check out this [link](https://sites.google.com/a/noaa.gov/noaa-nesdis-ncei/people-culture/onboarding-program) for spceific NCEI onboarding information including our mission and culture, governance and services, and support resources. 
+Please check out this [link](https://sites.google.com/a/noaa.gov/noaa-nesdis-ncei/people-culture/onboarding-program) for specific NCEI onboarding information including our mission and culture, governance and services, and support resources. 
 
 ### What to expect in the first 1 to 7 days
 
