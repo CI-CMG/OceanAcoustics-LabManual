@@ -1,25 +1,5 @@
 [
   {
-    "objectID": "content/cheatsheet.html",
-    "href": "content/cheatsheet.html",
-    "title": "Cheatsheet",
-    "section": "",
-    "text": "With a lot of moving parts to the job you might find it helpful to look back on some cheat sheets. These documents will give you some help with common commands, queries, and government acronyms used within Team Fish.\n\nTerminology: This short doc provides common terms used when discussing the scientific data of the archives.\nAcronyms: This doc includes common government acronyms for agencies, data providers, and more.\nAWS Notes: These notes relay common commands used to access the AWS S3 bucket for Water Column data.\nGoogle Cloud: These notes include common commands used to access the Google Cloud (GCP) bucket holding the Passive Acoustic data.\nLINUX COMMANDS: This doc outlines the basic linux commands used to manage the data on our servers and desktops.\nSQL Cheat Sheet: This document includes many common SQL queries that we use to access data on our database and in the archive. \nInstruments: This doc outlines the types of instruments that are used routinely for water column sonar surveys and passive acoustic monitoring programs.",
-    "crumbs": [
-      "Cheat sheets"
-    ]
-  },
-  {
-    "objectID": "content/Onboarding.html",
-    "href": "content/Onboarding.html",
-    "title": "New Employee Onboarding",
-    "section": "",
-    "text": "CIRES Onboarding\nPlease check out this link for general onboarding information at CIRES including orientiation, benefits, leave and timesheets, and other to-dos. There is also NOAA-Specific information and important resources so be sure to review all the content.\n\n\nNCEI Onboarding\nPlease check out this link for specific NCEI onboarding information including our mission and culture, governance and services, and support resources.\n\n\nWhat to expect in the first 1 to 7 days\nPatience is key in the first week. Having to go through approvals, appointments and introductions your initial days may be overwhelming and delays getting fully onboarded are expected. However, as each day passes you will get your NOAA credentials - which will get you access to the building, your NOAA computer and then sort through the necessary access to servers, and get up to speed on what the archives are and what we do here at NCEI. There are required training courses from CU and NOAA that you will take online (see below) and several CU forms to complete that the CU team will walk you through..\nIn short, It’s a lot of paperwork, learning, waiting, and a bit of doing.\n\n\nWhat to expect in the first month\nAs access to all things NCEI are worked out over the first couple of weeks of the job, you should be well on your way to learning the tasks of the job, feeling integrated with the team and meeting many others in the office.\nThroughout this month, you will be given a lot of information and finding ways to document it, organize, and reference it will be very beneficial. The team has a couple of tools along with existing documentation - your help using these tools, providing feedback for what could be better, and additional information that is needed are always appreciated.\nHopefully be able to start doing your job :)))\n\n\nThings to configure\nHere are some onboarding guidelines so you know you are on the right track: Onboarding Guidelines\nIf you are a student joining the team you will most likely need to work on a Windows desktop. In order to access the servers and the mission’s systems, you will need to configure the terminal application called Putty: Putty Configuration\nAnother aspect of being a student employee includes updating your hourly timesheet each day.\nInstructions for configuration can be found here: Timesheet setup for Students\nAlso, if you plan to work in person at DSRC, it’s a good idea to sign up for email/text alerts, found here: DSRC Text and Email Alerts\n\n\nTraining\nAs a NOAA and CU Employee, there will also be several training courses that you will be required to complete:\nNOAA training: NOAA IT Security Awareness\nNOAA training: Records Management Course 101\nCU training: Discrimination and Harassment\nCU training: Introduction to Export Controls\nOnce you’ve gotten this far, make sure you schedule a tour of the NOAA building! As one of the nation’s leaders in science and technology, the building houses several exhibits that detail the achievements of NOAA Boulder at the David Skaggs Research Center.",
-    "crumbs": [
-      "New Employee Onboarding"
-    ]
-  },
-  {
     "objectID": "content/About.html",
     "href": "content/About.html",
     "title": "Meet the Team",
@@ -38,67 +18,6 @@
     "crumbs": [
       "Submitting Data"
     ]
-  },
-  {
-    "objectID": "content/first_day.html",
-    "href": "content/first_day.html",
-    "title": "First Day Checklist",
-    "section": "",
-    "text": "How to get into the NOAA David Skaggs Research Center\n\n325 Broadway, Boulder, CO\n\n\n\nDirections\nDirections for getting to the David Skaggs Research Center can be found at this link.\nFor more information visit - How to get into the NOAA office on first day\n\n\nDress Code\nTeam Fish at NCEI has a relaxed environment when it comes to the dress code. We describe ourselves as a step below business casual. No need to wear a blazer or a pencil skirt unless you experience the rare occasion when congressional staff or NOAA directors visit.\nTypically jeans, shorts, t-shirts, and sneakers are totally acceptable, but do keep in mind that our team will make fun of you if you come in wearing something inappropriate. Nevertheless, many colleagues still dress in business casual attire so feel free to dress as you prefer!\nA good rule of thumb is “wear what you want but avoid anything that you wouldn’t wear in front of your grandma.”\nAnother reminder is that despite the heat during the summer, the office is relatively chilly no matter the time of the year, so we always recommend bringing a small jacket or sweater just in case.\n\n\nWhat to Bring\nItems to bring are a water bottle to deal with the really dry climate, laptop and charger unless you know there will be a computer waiting for you, notebook and pen, and lunch. Emotional support stuffed animals are also welcome.",
-    "crumbs": [
-      "First Day Checklist"
-    ]
-  },
-  {
-    "objectID": "content/Pipeline.html",
-    "href": "content/Pipeline.html",
-    "title": "Our Data Pipeline",
-    "section": "",
-    "text": "Common Package Ingest (CPI) is the system used to archive water column sonar data (WCSD) and passive acoustic data (PAD). In addition to ingesting data, this system also creates and publishes metadata records, mints DOIs, uploads data to cloud storage, and updates databases that support data discoverability and accessibility via an online map viewer here: WCSD or PAD\nThis is the general workflow:",
-    "crumbs": [
-      "Our Data Pipeline"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CIRES Lab Manual",
-    "section": "",
-    "text": "This repository serves as the documentation for the CIRES Ocean Acoustics Lab Manual, built using Quarto and hosted via GitHub Pages. If you would like to replicate this setup for your projects, follow the instructions below.\nThis is a common format for documentation and includes a GitHub Action that automatically builds the website when changes are made. The NOAA palette and fonts have been added to theme.scss for consistent branding. The website will be served from the gh-pages branch, a common approach to prevent cluttering the main branch with website files.\nThe GitHub Action installs R to support R code in your .qmd or .Rmd files. There’s no need to modify existing.Rmd files unless you want to use specific Quarto features like cross-referencing."
-  },
-  {
-    "objectID": "index.html#github-setup",
-    "href": "index.html#github-setup",
-    "title": "CIRES Lab Manual",
-    "section": "GitHub Setup",
-    "text": "GitHub Setup\n\nUse the Template Click the green “Use This Template” button to create a repository with this content. Ensure your repository is public (GitHub Pages doesn’t work for private repositories unless you have a paid account). Also, check the box to include all branches to get the gh-pages branch. \nEnable GitHub Pages Go to Settings &gt; Pages, and set the source to be the gh-pages branch and the root directory for the site. \nEnable GitHub Actions Under Settings &gt; Actions &gt; General, make sure GitHub Actions are enabled. \nEdit Repository Description Add a description and a link to the webpage in the repository’s settings. You can find the URL by going to the Settings &gt; Pages section or under the Actions tab once the website is built."
-  },
-  {
-    "objectID": "content/Accessing Data.html",
-    "href": "content/Accessing Data.html",
-    "title": "Guidance for Accessing Data",
-    "section": "",
-    "text": "All publicly accessible data and products can be discovered in our dedicated map viewers.\n\nWater Column Sonar Data\nPassive Acoustic Data\n\nThe map viewers allow filtering of datasets based on various criteria and also allow data ordering. When ordering data there is the option of receiving it directly from NCEI or accessing the data from a cloud repository that is part of the NOAA Open Data Dissemination (NODD) project. The map viewer  will provide additional information to access specific files, but data can also be accessed directly from the NODD buckets using the procedures below.\nWCSD Cloud\nThe WCSD archive can be accessed on the Amazon Web Services (AWS) Cloud. Using the AWS CLI tool, you can download files from the command line using the following command structure:\naws s3 cp s3://noaa-wcsd-pds/  –recursive –no-sign-request\nPAD Cloud\nThe PAD archive can be accessed on Google Cloud Platform (GCP). For more information on downloading from the cloud, see this Download Guide. Using the gsutil tool, you can download files from the command line using the following command structure:\ngsutil -m cp -r gs://noaa-passive-bioacoustic/ rsync \n\nFTP\nReceiving data directly from NCEI generally involves our anonymous FTP server. Smaller orders are processed automatically and you will receive an email with a download link. Larger orders are processed by our data managers and posted to our FTP server. In this case, the data manager will contact you with downloading instructions.\n\nExternal Media Delivery\nFor very large , &gt;500GB, data orders, FTP delivery is not feasible. For these large orders, an external hard drive(s) of sufficient capacity has to be shipped to NCEI. We will load your data and ship the drive(s) back to you. You will be alerted if you try ordering a very large volume of data and a data manager will reach out to coordinate delivery via external media.",
-    "crumbs": [
-      "Guidance for Accessing Data"
-    ]
-  },
-  {
-    "objectID": "content/Data Overview.html",
-    "href": "content/Data Overview.html",
-    "title": "Overview of Ocean Acoustic Data",
-    "section": "",
-    "text": "The Ocean Acoustics Archive provides long-term stewardship and global access to data and products from water column sonar and passive acoustic monitoring systems.\n\nWater Column Sonar Data\nWater column sonar data are routinely collected and used by NOAA to inform fish stock assessments, characterize habitat, remotely detect methane seeps, and monitor undersea oil spills.\n\n\n\nSchool of fish\n\n\n\n\n\nSound waves transmitted from ships using sonar instruments reflect back to the ship when they have hit an object(s), such as a school of fish (Source: Barbara Ambrose, NOAA)\n\n\nThe Water Column Sonar Data Archive began through a partnership with NOAA Fisheries in 2011, staffing of the original archive team in 2013, and the operational pipeline launched in 2014.\nThe majority of archived sonar data were collected by NOAA Fisheries partners across all six Fisheries Science Centers. The archive also comprises sonar data collected by the Rolling Deck To Repository program, NOAA NOS with numerous datasets specifically from NCCOS, NOAA OAR Office of Ocean Exploration (OER) from NOAA Ship Okeanos Explorer, and several academic and international institutions.\nAn overview of how and why partners across three different NOAA Line Offices collect water column sonar data can be found in this Story Map collaboratively written with scientists across NEFSC, AFSC, NCCOS, OER, and CIRES/NCEI.\nSince its beginning in 2014, the archive has expanded to include data from a variety of sonar systems operating on vessels, stationary moorings, and autonomous platforms.\nThis expansion also supports the unique submission formats from principal providers such as the Rolling Deck To Repository program and NOAA Ship Okeanos Explorer into the archive.\nThe team supports the NOAA OMAO Data Rescue Project.\nAll publicly accessible data and products in the NCEI Water Column Sonar Data Archive can be discovered in its dedicated map viewer.\n\n\nPassive Acoustic Monitoring\nPassive acoustic monitoring is a powerful observational tool that NOAA uses to detect and characterize sounds produced by fish and marine mammals, ambient noise from physical oceanographic processes, and anthropogenic noise sources that contribute to the overall ocean soundscape.\n\n\n\nMarine sound sources\n\n\n\n\n\nInstrumentation used to record them\n\n\nThe NOAA Ocean Noise Strategy articulates the agency’s vision for addressing ocean noise impacts to the species, ecosystems, and places it is entrusted to protect and guide science and management actions towards that vision. The NCEI Passive Acoustic Data Archive is a flagship project for the Ocean Noise Strategy.\nThe NCEI Passive Acoustic Data Archive was established in 2017.\nArchived data and products are the result of long-term passive acoustic monitoring efforts and are typically cross NOAA Line Office and/or multi-agency. Some examples include the NOAA-Navy Sanctuary Soundscape Monitoring Project (SanctSound), NOPP-funded and UNH-led Atlantic Deepwater Ecosystem Observatory Network (ADEON), BOEM-funded, Cornell University-led monitoring efforts typically associated with monitoring of offshore energy development, and the NOAA-led with collaboration from Mexican scientists Long-term Investigations into Soundscapes, Trends, Ecosystems, and Noise in the Gulf of Mexico (Listen GoMex).\nBiological, physical, and anthropogenic sound sources are recorded using a variety of platforms with underwater hydrophones and recording systems from mobile to stationary to animal-borne (right).\nAll publicly accessible data and products in the NCEI Passive Acoustic Data Archive can be discovered in its dedicated map viewer.\n\n\nArticles of Interest\n\nBig data in Earth science: Emerging practice and promise\nConservation Bioacoustics- Listening to the Heartbeat of the Earth\nThe Next Wave of Passive Acoustic Data Management: How Centralized Access Can Enhance Science\nEarth Science Data Repositories: Implementing the CARE Principles\nListening to animal behavior to understand changing ecosystems\nListening to the Ocean Offers Insights into Climate Change\nBuilding an Accessible Archive for Water Column Sonar Data\n\n\nOther Links\n\nSoundCoop\nSound in the Ocean\nSanctSound\nOceanNoise\nPassive Acoustic Research in the Northeast \nMammals in the Ocean \nMarine Mammal Acoustics\nOffshore Wind Energy Development\nK. Lisa Yang Center for Conservation Bioacoustics\nTeam Fish Partners Overview\n\n\nAdditional resources\nYou can see a few extra resources for the data overview - Here",
-    "crumbs": [
-      "Overview of Ocean Acoustic Data"
-    ]
-  },
-  {
-    "objectID": "content/acknowledgements.html",
-    "href": "content/acknowledgements.html",
-    "title": "Acknowledgments",
-    "section": "",
-    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland."
   },
   {
     "objectID": "content/Internal SOPs.html",
@@ -135,10 +54,54 @@
     "href": "content/Internal SOPs.html#software-development",
     "title": "Internal SOPs",
     "section": "Software Development",
-    "text": "Software Development\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder. Documentation of CPI can be found here: CPI Overview",
+    "text": "Software Development\n\nData Packager Procedures\n\nTo create a new PACE release, the steps are outlined in this document.\n\n\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder. Documentation of CPI can be found here: CPI Overview",
     "crumbs": [
       "Internal SOPs"
     ]
+  },
+  {
+    "objectID": "content/cheatsheet.html",
+    "href": "content/cheatsheet.html",
+    "title": "Cheatsheet",
+    "section": "",
+    "text": "With a lot of moving parts to the job you might find it helpful to look back on some cheat sheets. These documents will give you some help with common commands, queries, and government acronyms used within Team Fish.\n\nTerminology: This short doc provides common terms used when discussing the scientific data of the archives.\nAcronyms: This doc includes common government acronyms for agencies, data providers, and more.\nAWS Notes: These notes relay common commands used to access the AWS S3 bucket for Water Column data.\nGoogle Cloud: These notes include common commands used to access the Google Cloud (GCP) bucket holding the Passive Acoustic data.\nLINUX COMMANDS: This doc outlines the basic linux commands used to manage the data on our servers and desktops.\nSQL Cheat Sheet: This document includes many common SQL queries that we use to access data on our database and in the archive. \nInstruments: This doc outlines the types of instruments that are used routinely for water column sonar surveys and passive acoustic monitoring programs.",
+    "crumbs": [
+      "Cheat sheets"
+    ]
+  },
+  {
+    "objectID": "content/Data Overview.html",
+    "href": "content/Data Overview.html",
+    "title": "Overview of Ocean Acoustic Data",
+    "section": "",
+    "text": "The Ocean Acoustics Archive provides long-term stewardship and global access to data and products from water column sonar and passive acoustic monitoring systems.\n\nWater Column Sonar Data\nWater column sonar data are routinely collected and used by NOAA to inform fish stock assessments, characterize habitat, remotely detect methane seeps, and monitor undersea oil spills.\n\n\n\nSchool of fish\n\n\n\n\n\nSound waves transmitted from ships using sonar instruments reflect back to the ship when they have hit an object(s), such as a school of fish (Source: Barbara Ambrose, NOAA)\n\n\nThe Water Column Sonar Data Archive began through a partnership with NOAA Fisheries in 2011, staffing of the original archive team in 2013, and the operational pipeline launched in 2014.\nThe majority of archived sonar data were collected by NOAA Fisheries partners across all six Fisheries Science Centers. The archive also comprises sonar data collected by the Rolling Deck To Repository program, NOAA NOS with numerous datasets specifically from NCCOS, NOAA OAR Office of Ocean Exploration (OER) from NOAA Ship Okeanos Explorer, and several academic and international institutions.\nAn overview of how and why partners across three different NOAA Line Offices collect water column sonar data can be found in this Story Map collaboratively written with scientists across NEFSC, AFSC, NCCOS, OER, and CIRES/NCEI.\nSince its beginning in 2014, the archive has expanded to include data from a variety of sonar systems operating on vessels, stationary moorings, and autonomous platforms.\nThis expansion also supports the unique submission formats from principal providers such as the Rolling Deck To Repository program and NOAA Ship Okeanos Explorer into the archive.\nThe team supports the NOAA OMAO Data Rescue Project.\nAll publicly accessible data and products in the NCEI Water Column Sonar Data Archive can be discovered in its dedicated map viewer.\n\n\nPassive Acoustic Monitoring\nPassive acoustic monitoring is a powerful observational tool that NOAA uses to detect and characterize sounds produced by fish and marine mammals, ambient noise from physical oceanographic processes, and anthropogenic noise sources that contribute to the overall ocean soundscape.\n\n\n\nMarine sound sources\n\n\n\n\n\nInstrumentation used to record them\n\n\nThe NOAA Ocean Noise Strategy articulates the agency’s vision for addressing ocean noise impacts to the species, ecosystems, and places it is entrusted to protect and guide science and management actions towards that vision. The NCEI Passive Acoustic Data Archive is a flagship project for the Ocean Noise Strategy.\nThe NCEI Passive Acoustic Data Archive was established in 2017.\nArchived data and products are the result of long-term passive acoustic monitoring efforts and are typically cross NOAA Line Office and/or multi-agency. Some examples include the NOAA-Navy Sanctuary Soundscape Monitoring Project (SanctSound), NOPP-funded and UNH-led Atlantic Deepwater Ecosystem Observatory Network (ADEON), BOEM-funded, Cornell University-led monitoring efforts typically associated with monitoring of offshore energy development, and the NOAA-led with collaboration from Mexican scientists Long-term Investigations into Soundscapes, Trends, Ecosystems, and Noise in the Gulf of Mexico (Listen GoMex).\nBiological, physical, and anthropogenic sound sources are recorded using a variety of platforms with underwater hydrophones and recording systems from mobile to stationary to animal-borne (right).\nAll publicly accessible data and products in the NCEI Passive Acoustic Data Archive can be discovered in its dedicated map viewer.\n\n\nArticles of Interest\n\nBig data in Earth science: Emerging practice and promise\nConservation Bioacoustics- Listening to the Heartbeat of the Earth\nThe Next Wave of Passive Acoustic Data Management: How Centralized Access Can Enhance Science\nEarth Science Data Repositories: Implementing the CARE Principles\nListening to animal behavior to understand changing ecosystems\nListening to the Ocean Offers Insights into Climate Change\nBuilding an Accessible Archive for Water Column Sonar Data\n\n\nOther Links\n\nSoundCoop\nSound in the Ocean\nSanctSound\nOceanNoise\nPassive Acoustic Research in the Northeast \nMammals in the Ocean \nMarine Mammal Acoustics\nOffshore Wind Energy Development\nK. Lisa Yang Center for Conservation Bioacoustics\nTeam Fish Partners Overview\n\n\nAdditional resources\nYou can see a few extra resources for the data overview - Here",
+    "crumbs": [
+      "Overview of Ocean Acoustic Data"
+    ]
+  },
+  {
+    "objectID": "content/Pipeline.html",
+    "href": "content/Pipeline.html",
+    "title": "Our Data Pipeline",
+    "section": "",
+    "text": "Common Package Ingest (CPI) is the system used to archive water column sonar data (WCSD) and passive acoustic data (PAD). In addition to ingesting data, this system also creates and publishes metadata records, mints DOIs, uploads data to cloud storage, and updates databases that support data discoverability and accessibility via an online map viewer here: WCSD or PAD\nThis is the general workflow:",
+    "crumbs": [
+      "Our Data Pipeline"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CIRES Lab Manual",
+    "section": "",
+    "text": "This repository serves as the documentation for the CIRES Ocean Acoustics Lab Manual, built using Quarto and hosted via GitHub Pages. If you would like to replicate this setup for your projects, follow the instructions below.\nThis is a common format for documentation and includes a GitHub Action that automatically builds the website when changes are made. The NOAA palette and fonts have been added to theme.scss for consistent branding. The website will be served from the gh-pages branch, a common approach to prevent cluttering the main branch with website files.\nThe GitHub Action installs R to support R code in your .qmd or .Rmd files. There’s no need to modify existing.Rmd files unless you want to use specific Quarto features like cross-referencing."
+  },
+  {
+    "objectID": "index.html#github-setup",
+    "href": "index.html#github-setup",
+    "title": "CIRES Lab Manual",
+    "section": "GitHub Setup",
+    "text": "GitHub Setup\n\nUse the Template Click the green “Use This Template” button to create a repository with this content. Ensure your repository is public (GitHub Pages doesn’t work for private repositories unless you have a paid account). Also, check the box to include all branches to get the gh-pages branch. \nEnable GitHub Pages Go to Settings &gt; Pages, and set the source to be the gh-pages branch and the root directory for the site. \nEnable GitHub Actions Under Settings &gt; Actions &gt; General, make sure GitHub Actions are enabled. \nEdit Repository Description Add a description and a link to the webpage in the repository’s settings. You can find the URL by going to the Settings &gt; Pages section or under the Actions tab once the website is built."
   },
   {
     "objectID": "content/index.html",
@@ -158,6 +121,43 @@
     "text": "Overview of the Archives\nThis section provides an overview of the archives maintained by the Ocean Acoustics Archive Team at CIRES and NCEI.\n\nWater Column Sonar Data Archive\nNOAA collects and uses active acoustic (sonar) data for various mapping requirements, focusing on the area from near the ocean surface to the seafloor. Primary uses of this sonar data include mapping of fish schools and other mid-water marine organisms, assessing biological abundance, identifying species, and characterizing habitat. Additionally, it is used to map underwater gas seeps and remotely monitor undersea oil spills.\nThe Water Column Sonar Data Archive was established in collaboration with NOAA Fisheries and the University of Colorado in 2014. This archive preserves sonar data collected by NOAA line offices, academia, industry, and international institutions, offering free, global access to over 300+ terabytes of data. This valuable resource helps answer complex questions about our oceans and facilitates exploration beyond the data’s original collection purpose.\n\n\n\nWater column sonar data collected on the NOAA Okeanos Explorer in the North Atlantic Ocean. Sonar data are overlaid onto coastal relief model bathymetry.\n\n\nContact Us: wcd.info@noaa.gov\n\n\nPassive Acoustic Data Archive\nPassive acoustic monitoring is a powerful observational tool used by NOAA and other agencies to detect and characterize sounds produced by fish and marine mammals, ambient noise from physical oceanographic processes, and anthropogenic noise sources that contribute to the overall ocean noise environment. The Passive Acoustic Data Archive, established in 2017, supports the stewardship of these valuable data collected by NOAA and partners. The archive’s database schema was designed after Tethys, an open source temporal-spatial database for metadata related to acoustic recordings, developed by Dr.Marie Roche.\nThe archive hosts free, globally accessible raw audio files and data products, supporting scientific research and management needs such as monitoring and protecting marine mammal populations, tracking geological activity, and assessing the impacts of human noise on marine life. Notably, the NCEI Passive Acoustic Data Archive staff supported the NOAA-Navy Sanctuary Soundscape Monitoring Project (SanctSound) by stewarding hundreds of raw audio files and data products and developing an educational and interactive portal for the project.\nNotably, the NCEI Passive Acoustic Data Archive staff supported the NOAA-Navy Sanctuary Soundscape Monitoring Project (SanctSound) by stewarding hundreds of raw audio files and data products and developing an educational and interactive portal for the project.\n\n\n\nThere are three main sources of sound in the ocean: physical (green), biological (blue), and human-made (orange). Credit: NOAA NEFSC Passive Acoustic Research Group\n\n\n\n\n\nA wide range of technology is used to record underwater sound. Credit: NOAA NEFSC Passive Acoustic Research Group\n\n\nContact Us: pad.info@noaa.gov",
     "crumbs": [
       "Home"
+    ]
+  },
+  {
+    "objectID": "content/first_day.html",
+    "href": "content/first_day.html",
+    "title": "First Day Checklist",
+    "section": "",
+    "text": "How to get into the NOAA David Skaggs Research Center\n\n325 Broadway, Boulder, CO\n\n\n\nDirections\nDirections for getting to the David Skaggs Research Center can be found at this link.\nFor more information visit - How to get into the NOAA office on first day\n\n\nDress Code\nTeam Fish at NCEI has a relaxed environment when it comes to the dress code. We describe ourselves as a step below business casual. No need to wear a blazer or a pencil skirt unless you experience the rare occasion when congressional staff or NOAA directors visit.\nTypically jeans, shorts, t-shirts, and sneakers are totally acceptable, but do keep in mind that our team will make fun of you if you come in wearing something inappropriate. Nevertheless, many colleagues still dress in business casual attire so feel free to dress as you prefer!\nA good rule of thumb is “wear what you want but avoid anything that you wouldn’t wear in front of your grandma.”\nAnother reminder is that despite the heat during the summer, the office is relatively chilly no matter the time of the year, so we always recommend bringing a small jacket or sweater just in case.\n\n\nWhat to Bring\nItems to bring are a water bottle to deal with the really dry climate, laptop and charger unless you know there will be a computer waiting for you, notebook and pen, and lunch. Emotional support stuffed animals are also welcome.",
+    "crumbs": [
+      "First Day Checklist"
+    ]
+  },
+  {
+    "objectID": "content/Accessing Data.html",
+    "href": "content/Accessing Data.html",
+    "title": "Guidance for Accessing Data",
+    "section": "",
+    "text": "All publicly accessible data and products can be discovered in our dedicated map viewers.\n\nWater Column Sonar Data\nPassive Acoustic Data\n\nThe map viewers allow filtering of datasets based on various criteria and also allow data ordering. When ordering data there is the option of receiving it directly from NCEI or accessing the data from a cloud repository that is part of the NOAA Open Data Dissemination (NODD) project. The map viewer  will provide additional information to access specific files, but data can also be accessed directly from the NODD buckets using the procedures below.\nWCSD Cloud\nThe WCSD archive can be accessed on the Amazon Web Services (AWS) Cloud. Using the AWS CLI tool, you can download files from the command line using the following command structure:\naws s3 cp s3://noaa-wcsd-pds/  –recursive –no-sign-request\nPAD Cloud\nThe PAD archive can be accessed on Google Cloud Platform (GCP). For more information on downloading from the cloud, see this Download Guide. Using the gsutil tool, you can download files from the command line using the following command structure:\ngsutil -m cp -r gs://noaa-passive-bioacoustic/ rsync \n\nFTP\nReceiving data directly from NCEI generally involves our anonymous FTP server. Smaller orders are processed automatically and you will receive an email with a download link. Larger orders are processed by our data managers and posted to our FTP server. In this case, the data manager will contact you with downloading instructions.\n\nExternal Media Delivery\nFor very large , &gt;500GB, data orders, FTP delivery is not feasible. For these large orders, an external hard drive(s) of sufficient capacity has to be shipped to NCEI. We will load your data and ship the drive(s) back to you. You will be alerted if you try ordering a very large volume of data and a data manager will reach out to coordinate delivery via external media.",
+    "crumbs": [
+      "Guidance for Accessing Data"
+    ]
+  },
+  {
+    "objectID": "content/acknowledgements.html",
+    "href": "content/acknowledgements.html",
+    "title": "Acknowledgments",
+    "section": "",
+    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland."
+  },
+  {
+    "objectID": "content/Onboarding.html",
+    "href": "content/Onboarding.html",
+    "title": "New Employee Onboarding",
+    "section": "",
+    "text": "CIRES Onboarding\nPlease check out this link for general onboarding information at CIRES including orientiation, benefits, leave and timesheets, and other to-dos. There is also NOAA-Specific information and important resources so be sure to review all the content.\n\n\nNCEI Onboarding\nPlease check out this link for specific NCEI onboarding information including our mission and culture, governance and services, and support resources.\n\n\nWhat to expect in the first 1 to 7 days\nPatience is key in the first week. Having to go through approvals, appointments and introductions your initial days may be overwhelming and delays getting fully onboarded are expected. However, as each day passes you will get your NOAA credentials - which will get you access to the building, your NOAA computer and then sort through the necessary access to servers, and get up to speed on what the archives are and what we do here at NCEI. There are required training courses from CU and NOAA that you will take online (see below) and several CU forms to complete that the CU team will walk you through..\nIn short, It’s a lot of paperwork, learning, waiting, and a bit of doing.\n\n\nWhat to expect in the first month\nAs access to all things NCEI are worked out over the first couple of weeks of the job, you should be well on your way to learning the tasks of the job, feeling integrated with the team and meeting many others in the office.\nThroughout this month, you will be given a lot of information and finding ways to document it, organize, and reference it will be very beneficial. The team has a couple of tools along with existing documentation - your help using these tools, providing feedback for what could be better, and additional information that is needed are always appreciated.\nHopefully be able to start doing your job :)))\n\n\nThings to configure\nHere are some onboarding guidelines so you know you are on the right track: Onboarding Guidelines\nIf you are a student joining the team you will most likely need to work on a Windows desktop. In order to access the servers and the mission’s systems, you will need to configure the terminal application called Putty: Putty Configuration\nAnother aspect of being a student employee includes updating your hourly timesheet each day.\nInstructions for configuration can be found here: Timesheet setup for Students\nAlso, if you plan to work in person at DSRC, it’s a good idea to sign up for email/text alerts, found here: DSRC Text and Email Alerts\n\n\nTraining\nAs a NOAA and CU Employee, there will also be several training courses that you will be required to complete:\nNOAA training: NOAA IT Security Awareness\nNOAA training: Records Management Course 101\nCU training: Discrimination and Harassment\nCU training: Introduction to Export Controls\nOnce you’ve gotten this far, make sure you schedule a tour of the NOAA building! As one of the nation’s leaders in science and technology, the building houses several exhibits that detail the achievements of NOAA Boulder at the David Skaggs Research Center.",
+    "crumbs": [
+      "New Employee Onboarding"
     ]
   }
 ]
