@@ -54,7 +54,7 @@
     "href": "content/Internal SOPs.html#software-development",
     "title": "Internal SOPs",
     "section": "Software Development",
-    "text": "Software Development\n\nData Packager Procedures\n\nTo create a new PACE release, the steps are outlined in this document.\n\n\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder. Documentation of CPI can be found here: CPI Overview",
+    "text": "Software Development\n\nData Packager Procedures\n\nTo create a new PACE release, the steps are outlined in this document. For info on creating a Windows signed version, view this document\n\n\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder. Documentation of CPI can be found here: CPI Overview",
     "crumbs": [
       "Internal SOPs"
     ]
