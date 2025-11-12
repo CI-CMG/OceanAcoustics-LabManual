@@ -41,7 +41,7 @@ For interacting with WCSD data requests: [WCSD Data Delivery Procedure](https://
 
 ### Data Packager Procedures
 
--   To create a new PACE release, the steps are outlined in this [document](https://docs.google.com/document/d/1nq8g6xIVgzft-FzZzopiQnhvh76Yv5D2nrbJRuyUSbE/edit?tab=t.0).
+-   To create a new PACE release, the steps are outlined in this [document](https://docs.google.com/document/d/1nq8g6xIVgzft-FzZzopiQnhvh76Yv5D2nrbJRuyUSbE/edit?tab=t.0). For info on creating a Windows signed version, view this [document](https://docs.google.com/document/d/1z0zqqlO9FYZhsqSZ_SZYW6KC3uew3xNfGdhgOgsrSeY/edit?tab=t.0)
 
 ### Internal Pipeline Procedures
 
