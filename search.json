@@ -95,7 +95,17 @@
     "href": "content/Internal SOPs.html",
     "title": "Internal SOPs",
     "section": "",
-    "text": "Here on the Ocean Acoustic’s team we have written out the standard operating procedures for conducting ingests for both the Water Column Sonar and the Passive Acoustic data archives. This information is not public and only NCEI employees will be able to access these google docs.",
+    "text": "Here on the Ocean Acoustics team we have written standard operating procedures (SOPs) to ingest data into the Water Column Sonar and the Passive Acoustic Data Archives. This information is not public and only NCEI employees will have access these Google docs.\nIn addition, data managers across the NCEI-CO Marine Geology and Geophysics Section have collaborated to create shared SOP with general onboarding information and resources. This effort was guided heavily by the expertise of our very own Rory O’Flynn!",
+    "crumbs": [
+      "Internal SOPs"
+    ]
+  },
+  {
+    "objectID": "content/Internal SOPs.html#ncei-co",
+    "href": "content/Internal SOPs.html#ncei-co",
+    "title": "Internal SOPs",
+    "section": "NCEI-CO",
+    "text": "NCEI-CO\n\nFor general information onboarding to NCEI-CO, see this SOP: NCEI-CO General Onboarding\nFor the centralized inter-team resource of finding commonly used SOPs and other cheatsheets, see this document: NCEI-CO Cheatsheet and Resource Masterlist",
     "crumbs": [
       "Internal SOPs"
     ]
@@ -105,7 +115,7 @@
     "href": "content/Internal SOPs.html#water-column-sonar-data",
     "title": "Internal SOPs",
     "section": "Water Column Sonar Data",
-    "text": "Water Column Sonar Data\n\nInternal Pipeline Procedures\n\nFor information on the ingest process of Water Column Sonar Data, take a look at this SOP: WCSD CPI Documentation\nWCSD data packages and stats should be logged in this spreadsheet: WCSD by Ship\n\nFor interacting with WCSD data requests: WCSD Data Delivery Procedure",
+    "text": "Water Column Sonar Data\n\nInternal Pipeline Procedures\n\nGuidance on ingesting Water Column Sonar Data is documented in this SOP: WCSD CPI Documentation\nHard drives and datasets are logged in this spreadsheet: WCSD Hard Drive & Dataset Tracking\nWCSD data packages and stats should be logged in this spreadsheet: WCSD by Ship\nTo track WCSD data requests: WCSD Data Delivery Procedure",
     "crumbs": [
       "Internal SOPs"
     ]
@@ -115,7 +125,7 @@
     "href": "content/Internal SOPs.html#passive-acoustic-data",
     "title": "Internal SOPs",
     "section": "Passive Acoustic Data",
-    "text": "Passive Acoustic Data\n\nInternal Pipeline Procedures\n\nFor overall information on the ingest process of Passive Acoustic Data, take a look at this SOP: Handling of Drives: CheckSums, Pre-ingest and Ingest\nFor a more recent version of pre-ingest: PAD Pre-Ingest 2.0 \nFor information on how to submit hard drive scanning tickets:  Handling of Drives: Scanning\nHard drives should have been logged in this spreadsheet: Hard_Drive_Tracking\nAll PAD data packages and stats should be logged in this spreadsheet: PAD Ingest Tracking \nTo fulfill For interacting with PAD data requests: PAD Data Request and Delivery - Instructions \nFor documentation on Pace, the new PAD packaging tool PACE: PACE Documentation\nFor ingesting PAD PAD Ingest SOP",
+    "text": "Passive Acoustic Data\n\nInternal Pipeline Procedures\n\nFor overall information on the ingest process of Passive Acoustic Data, take a look at this SOP: Handling of Drives: CheckSums, Pre-ingest and Ingest\nFor a more recent version of pre-ingest: PAD Pre-Ingest 2.0\nFor information on how to submit hard drive scanning tickets: Handling of Drives: Scanning\nHard drives and datasets are logged in this spreadsheet: PAD Hard Drive & Dataset Tracking\nAll PAD data packages and stats should be logged in this spreadsheet: PAD Ingest Tracking\nTo track PAD data requests: PAD Data Request and Delivery - Instructions\nFor documentation on Pace, the new PAD packaging tool PACE: PACE Documentation\nFor ingesting PAD PAD Ingest SOP",
     "crumbs": [
       "Internal SOPs"
     ]
@@ -125,7 +135,7 @@
     "href": "content/Internal SOPs.html#software-development",
     "title": "Internal SOPs",
     "section": "Software Development",
-    "text": "Software Development\n\nData Packager Procedures\n\nTo create a new PACE release, the steps are outlined in this document. For info on creating a Windows signed version, view this document\n\n\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder. Documentation of CPI can be found here: CPI Overview",
+    "text": "Software Development\n\nData Packager Procedures\n\nTo create a new PACE release, follow the steps outlined in this document.\nFor info on creating a Windows signed version, view this document\n\n\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder.\nDocumentation of CPI can be found here: CPI Overview",
     "crumbs": [
       "Internal SOPs"
     ]
