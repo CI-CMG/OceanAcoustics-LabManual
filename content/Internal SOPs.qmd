@@ -6,13 +6,13 @@ page-layout: full
 
 Here on the Ocean Acoustics team we have written standard operating procedures (SOPs) to ingest data into the Water Column Sonar and the Passive Acoustic Data Archives. This information is not public and only NCEI employees will have access these Google docs.
 
-In addition, data managers across the NCEI-CO Marine Geology and Geophysics Section have collaborated to create shared SOP with general onboarding information and resources. This effort was guided heavily by the expertise of our very own Rory O'Flynn!
+In addition, NCEI-CO Marine Geology and Geophysics Section data managers created a shared SOP with general onboarding information and resources. This effort was guided heavily by the expertise of our very own Rory O'Flynn!
 
 ## NCEI-CO
 
--   For general information onboarding to NCEI-CO, see this SOP: [NCEI-CO General Onboarding](https://docs.google.com/document/d/1hHp2uR01j5uc32sC1rGG0y60fZZk1YP7lyPGN2xeh6U/edit?tab=t.0)
+-   For general information, see the [NCEI-CO General Onboarding SOP](https://docs.google.com/document/d/1hHp2uR01j5uc32sC1rGG0y60fZZk1YP7lyPGN2xeh6U/edit?tab=t.0)
 
--   For the centralized inter-team resource of finding commonly used SOPs and other cheatsheets, see this document: [NCEI-CO Cheatsheet and Resource Masterlist](https://docs.google.com/document/d/11x_NaP7UQXSNS0E6dQMI5ReKUdW4pGkHMmQtdG0KIxE/edit?tab=t.0#heading=h.3j6g6sf8txl9)
+-   For the centralized inter-team resource, see the [NCEI-CO Cheatsheet and Resource Masterlist](https://docs.google.com/document/d/11x_NaP7UQXSNS0E6dQMI5ReKUdW4pGkHMmQtdG0KIxE/edit?tab=t.0#heading=h.3j6g6sf8txl9)
 
 
 ## Water Column Sonar Data {#water-column-sonar-data}
