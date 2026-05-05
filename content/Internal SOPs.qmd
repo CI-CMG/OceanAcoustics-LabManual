@@ -38,7 +38,7 @@ In addition, NCEI-CO Marine Geology and Geophysics Section data managers created
 
 -   For the latest information on pre-ingest: [PAD Pre-Ingest 2.0](https://docs.google.com/document/d/1ZmELCT1uGybrPw83Ye4q079ws0_IsCNobLDvvapi-Gs/edit?usp=sharing)
 
--   For ingesting PAD [PAD Ingest SOP](https://docs.google.com/document/d/1-APUzbkyTKBXICk3wueSvLOlVGu3YwGbKxTVNwT-4bo/edit#heading=h.uy3n4wxjtta7)
+-   For how to ingest datasets: [PAD Ingest SOP](https://docs.google.com/document/d/1-APUzbkyTKBXICk3wueSvLOlVGu3YwGbKxTVNwT-4bo/edit#heading=h.uy3n4wxjtta7)
 
 -   For documenting errors: [PAD Errors and Issues](https://docs.google.com/document/d/13DEbLaEvLbh7V8Q2vY4i39D2fTG0bY8dO-qMqW8b9OI/edit?tab=t.0)
 
