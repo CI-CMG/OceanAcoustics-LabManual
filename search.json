@@ -115,7 +115,7 @@
     "href": "content/Internal SOPs.html#water-column-sonar-data",
     "title": "Internal SOPs",
     "section": "Water Column Sonar Data",
-    "text": "Water Column Sonar Data\n\nInternal Pipeline Procedures\n\nGuidance on ingesting Water Column Sonar Data is documented in this SOP: WCSD CPI Documentation\nHard drives and datasets are logged in this spreadsheet: WCSD Hard Drive & Dataset Tracking\nWCSD data packages and stats should be logged in this spreadsheet: WCSD by Ship\nTo track WCSD data requests: WCSD Data Delivery Procedure",
+    "text": "Water Column Sonar Data\n\nInternal Pipeline Procedures\n\nHard drives and datasets are logged in this spreadsheet: WCSD Hard Drive & Dataset Tracking\nGuidance on ingesting Water Column Sonar Data is documented in this SOP: WCSD CPI Documentation\nFor information on handling WCSD data requests: WCSD Data Delivery Procedure",
     "crumbs": [
       "Internal SOPs"
     ]
@@ -125,7 +125,7 @@
     "href": "content/Internal SOPs.html#passive-acoustic-data",
     "title": "Internal SOPs",
     "section": "Passive Acoustic Data",
-    "text": "Passive Acoustic Data\n\nInternal Pipeline Procedures\n\nFor overall information on the ingest process of Passive Acoustic Data, take a look at this SOP: Handling of Drives: CheckSums, Pre-ingest and Ingest\nFor a more recent version of pre-ingest: PAD Pre-Ingest 2.0\nFor information on how to submit hard drive scanning tickets: Handling of Drives: Scanning\nHard drives and datasets are logged in this spreadsheet: PAD Hard Drive & Dataset Tracking\nAll PAD data packages and stats should be logged in this spreadsheet: PAD Ingest Tracking\nTo track PAD data requests: PAD Data Request and Delivery - Instructions\nFor documentation on Pace, the new PAD packaging tool PACE: PACE Documentation\nFor ingesting PAD PAD Ingest SOP",
+    "text": "Passive Acoustic Data\n\nInternal Pipeline Procedures\n\nFor overall information on the ingest process of Passive Acoustic Data, take a look at this Handbook for PAD Jr Data Managers and Handling of Drives: CheckSums, Pre-ingest and Ingest\nHard drives and datasets are tracked in this spreadsheet: PAD Hard Drive & Dataset Tracking\nFor information on how to submit hard drive scanning tickets: Handling of Drives: Scanning\nFor information on pre-ingest: PAD Pre-Ingest 2.0\nFor ingesting PAD PAD Ingest SOP\nFor documenting errors: PAD Errors and Issues\nTo track PAD data requests: PAD Data Request and Delivery - Instructions",
     "crumbs": [
       "Internal SOPs"
     ]
@@ -135,7 +135,7 @@
     "href": "content/Internal SOPs.html#software-development",
     "title": "Internal SOPs",
     "section": "Software Development",
-    "text": "Software Development\n\nData Packager Procedures\n\nTo create a new PACE release, follow the steps outlined in this document.\nFor info on creating a Windows signed version, view this document\n\n\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder.\nDocumentation of CPI can be found here: CPI Overview",
+    "text": "Software Development\n\nData Packager Procedures\n\nFor documentation on PACE, the new PAD packaging tool PACE: PACE Documentation\nTo create a new PACE release, follow the steps outlined in this document.\nFor info on creating a Windows signed version, view this document\n\n\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder.\nDocumentation of CPI can be found here: CPI Overview",
     "crumbs": [
       "Internal SOPs"
     ]
