@@ -50,12 +50,12 @@ In addition, NCEI-CO Marine Geology and Geophysics Section data managers created
 
 -   For documentation on PACE, the new PAD packaging tool PACE: [PACE Documentation](https://docs.google.com/document/d/186g-taroYaE5OtGgOa76aSvpDxN1Ek025jm5rpetgL0/edit?usp=sharing)
 
--   To create a new PACE release, follow the steps outlined in this [document](https://docs.google.com/document/d/1nq8g6xIVgzft-FzZzopiQnhvh76Yv5D2nrbJRuyUSbE/edit?tab=t.0). 
+-   To create a new PACE release, follow the steps outlined in this [document](https://docs.google.com/document/d/1nq8g6xIVgzft-FzZzopiQnhvh76Yv5D2nrbJRuyUSbE/edit?tab=t.0) 
 
 -   For info on creating a Windows signed version, view this [document](https://docs.google.com/document/d/1z0zqqlO9FYZhsqSZ_SZYW6KC3uew3xNfGdhgOgsrSeY/edit?tab=t.0)
 
 ### Internal Pipeline Procedures
 
--   For a general overview of Common Package Ingest (CPI) see this [folder](https://drive.google.com/drive/folders/1HR3kdociTIA1TmjCpRkOzj7Kt1U3RDhG?usp=sharing). 
+-   For a general overview of Common Package Ingest (CPI) see this [folder](https://drive.google.com/drive/folders/1HR3kdociTIA1TmjCpRkOzj7Kt1U3RDhG?usp=sharing) 
 
 -   For CPI documentation: [CPI Overview](https://docs.google.com/document/d/1hMx30IeLQuNSGRxiAeGbq_gboVQ0NzrgsuvU_zwNhi8/edit?usp=drive_link)
