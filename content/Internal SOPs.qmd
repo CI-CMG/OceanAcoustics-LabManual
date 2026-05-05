@@ -38,7 +38,7 @@ In addition, NCEI-CO Marine Geology and Geophysics Section data managers created
 
 -   For information on how to submit hard drive scanning tickets: [Handling of Drives: Scanning](https://docs.google.com/document/d/1atRfjl6khfhxhhEdReYFEJ0cfOirqKo8565qjtV4E-Y/edit?usp=sharing)
 
--   Hard drives and datasets are logged in this spreadsheet: [PAD Hard Drive & Dataset Tracking](https://drive.google.com/open?id=1atiNCJLj5uUmGPc-J77ignckwuAZ7sGKW6596IQow0g&usp=drive_copy)
+-   Hard drives and datasets are logged in this spreadsheet: [PAD Hard Drive & Dataset Tracking](https://docs.google.com/spreadsheets/d/1DAYFnoTvUCjtbLS3v35wgKleCMev0wB10JwVxbsS8vc/edit?usp=sharing)
 
 -   All PAD data packages and stats should be logged in this spreadsheet: [PAD Ingest Tracking](https://docs.google.com/spreadsheets/d/1A1DhJFqasKMlLzAELnXfcgIPJVqkvMyFWJOnu9W-cj8/edit?usp=sharing)
 
