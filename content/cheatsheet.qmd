@@ -18,8 +18,8 @@ With a lot of moving parts to the job you might find it helpful to look back on 
 
 -   [Instruments](https://docs.google.com/document/d/1yB_Hb9VWwMqe4egaD9gf1w_6zBrIi_F7qYFk2PzhmT8/edit?usp=sharing): This document outlines the types of instruments that are used routinely for water column sonar surveys and passive acoustic monitoring programs.
 
--   [Handbook for PAD JR Data Managers](https://docs.google.com/document/d/1OMeRX3FjuKBY0EmbSw3D-PHH9TMMYfLyxP1rWEtNvbQ/edit?tab=t.8qnprcyu865#heading=h.k96d1lhgfln3): This document provides a quick go-to resource for passive acoustic jr data managers
+-   [Handbook for PAD JR Data Managers](https://docs.google.com/document/d/1OMeRX3FjuKBY0EmbSw3D-PHH9TMMYfLyxP1rWEtNvbQ/edit?tab=t.8qnprcyu865#heading=h.k96d1lhgfln3): This document provides a quick go-to resource for passive acoustic jr data managers.
 
 -   [PAD Error Documentation](https://docs.google.com/document/d/13DEbLaEvLbh7V8Q2vY4i39D2fTG0bY8dO-qMqW8b9OI/edit?tab=t.0): This document captures errors and issues encountered when archiving passive acoustic datasets to help debug more quickly or prevent the issue reoccuring in the future.
 
--   [NCEI-CO Cheatsheet and Resource Masterlist](https://docs.google.com/document/d/11x_NaP7UQXSNS0E6dQMI5ReKUdW4pGkHMmQtdG0KIxE/edit?tab=t.0): This document serves as a centralized inter-team resource
+-   [NCEI-CO Cheatsheet and Resource Masterlist](https://docs.google.com/document/d/11x_NaP7UQXSNS0E6dQMI5ReKUdW4pGkHMmQtdG0KIxE/edit?tab=t.0): This document serves as a centralized inter-team resource.
