@@ -12,8 +12,14 @@ With a lot of moving parts to the job you might find it helpful to look back on 
 
 -   [Google Cloud](https://drive.google.com/open?id=1YQ-DCu0IpzzluxoItzKLcU4L9f6rKtLTFqkgZGS5rkw&usp=drive_copy): These notes include common commands used to access the Google Cloud (GCP) bucket holding the Passive Acoustic data.
 
--   [LINUX COMMANDS](https://drive.google.com/open?id=1sGTmpOdTQVccJ589tzEjmctt6ul1M0_k7e9oDVaR04w&usp=drive_copy): This doc outlines the basic linux commands used to manage the data on our servers and desktops.
+-   [Linux Commands](https://drive.google.com/open?id=1sGTmpOdTQVccJ589tzEjmctt6ul1M0_k7e9oDVaR04w&usp=drive_copy): This doc outlines the basic linux commands used to manage the data on our servers and desktops.
 
 -   [SQL Cheat Sheet](https://drive.google.com/open?id=1S2iF1R_5BPHJ5U_Q2r7RMG-JzcKLF9tgdGH3Qf53jLo&usp=drive_copy): This document includes many common SQL queries that we use to access data on our database and in the archive. 
 
 -   [Instruments](https://docs.google.com/document/d/1yB_Hb9VWwMqe4egaD9gf1w_6zBrIi_F7qYFk2PzhmT8/edit?usp=sharing): This doc outlines the types of instruments that are used routinely for water column sonar surveys and passive acoustic monitoring programs.
+
+-   [Handbook for PAD JR Data Managers](https://docs.google.com/document/d/1OMeRX3FjuKBY0EmbSw3D-PHH9TMMYfLyxP1rWEtNvbQ/edit?tab=t.8qnprcyu865#heading=h.k96d1lhgfln3)
+
+-   [PAD Error Documentation](https://docs.google.com/document/d/13DEbLaEvLbh7V8Q2vY4i39D2fTG0bY8dO-qMqW8b9OI/edit?tab=t.0)
+
+-   [NCEI-CO Cheatsheet and Resource Masterlist](https://docs.google.com/document/d/11x_NaP7UQXSNS0E6dQMI5ReKUdW4pGkHMmQtdG0KIxE/edit?tab=t.0)
