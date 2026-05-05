@@ -135,7 +135,7 @@
     "href": "content/Internal SOPs.html#software-development",
     "title": "Internal SOPs",
     "section": "Software Development",
-    "text": "Software Development\n\nData Packager Procedures\n\nFor documentation on PACE, the new PAD packaging tool PACE: PACE Documentation\nTo create a new PACE release, follow the steps outlined in this document.\nFor info on creating a Windows signed version, view this document\n\n\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder.\nFor CPI documentation: CPI Overview",
+    "text": "Software Development\n\nData Packager Procedures\n\nFor documentation on PACE, the new PAD packaging tool PACE: PACE Documentation\nTo create a new PACE release, follow the steps outlined in this document\nFor info on creating a Windows signed version, view this document\n\n\n\nInternal Pipeline Procedures\n\nFor a general overview of Common Package Ingest (CPI) see this folder\nFor CPI documentation: CPI Overview",
     "crumbs": [
       "Internal SOPs"
     ]
