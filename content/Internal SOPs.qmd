@@ -42,7 +42,9 @@ In addition, NCEI-CO Marine Geology and Geophysics Section data managers created
 
 -   For documenting errors: [PAD Errors and Issues](https://docs.google.com/document/d/13DEbLaEvLbh7V8Q2vY4i39D2fTG0bY8dO-qMqW8b9OI/edit?tab=t.0)
 
--   For tracking PAD data requests: [PAD Data Request and Delivery - Instructions](https://drive.google.com/open?id=1vGim7urIcylfPSga1h2PI-A2opnGV5y1ztaGTBlAzD0&usp=drive_copy)
+-   For handling PAD data requests: [PAD Data Request and Delivery - Instructions](https://drive.google.com/open?id=1vGim7urIcylfPSga1h2PI-A2opnGV5y1ztaGTBlAzD0&usp=drive_copy)
+
+-   For tracking PAD data requests: [PAD Data Requests](https://docs.google.com/spreadsheets/d/1nQ84gAO4za744xCu8NmFrofzRuogV-MAa4zR7PS0CGs/edit?gid=0#gid=0) 
 
 ## Software Development
 
